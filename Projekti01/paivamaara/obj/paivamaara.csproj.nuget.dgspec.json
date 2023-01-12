@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Opiskelija\\source\\repos\\Ohjelmistokehittaja\\Projekti01\\paivamaara\\paivamaara.csproj": {}
+    "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\Projekti01\\paivamaara\\paivamaara.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Opiskelija\\source\\repos\\Ohjelmistokehittaja\\Projekti01\\paivamaara\\paivamaara.csproj": {
+    "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\Projekti01\\paivamaara\\paivamaara.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Opiskelija\\source\\repos\\Ohjelmistokehittaja\\Projekti01\\paivamaara\\paivamaara.csproj",
+        "projectUniqueName": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\Projekti01\\paivamaara\\paivamaara.csproj",
         "projectName": "paivamaara",
-        "projectPath": "C:\\Users\\Opiskelija\\source\\repos\\Ohjelmistokehittaja\\Projekti01\\paivamaara\\paivamaara.csproj",
-        "packagesPath": "C:\\Users\\Opiskelija\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Opiskelija\\source\\repos\\Ohjelmistokehittaja\\Projekti01\\paivamaara\\obj\\",
+        "projectPath": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\Projekti01\\paivamaara\\paivamaara.csproj",
+        "packagesPath": "C:\\Users\\janik\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\Projekti01\\paivamaara\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Opiskelija\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\janik\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -60,7 +60,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\bin\Debug\net6.0\c-sharp_loop.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\bin\Debug\net6.0\c-sharp_loop.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\bin\Debug\net6.0\c-sharp_loop.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\bin\Debug\net6.0\c-sharp_loop.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\bin\Debug\net6.0\c-sharp_loop.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\refint\c-sharp_loop.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\c-sharp_loop.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\c-sharp_loop\obj\Debug\net6.0\ref\c-sharp_loop.dll
