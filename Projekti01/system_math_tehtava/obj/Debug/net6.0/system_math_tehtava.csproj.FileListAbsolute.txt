@@ -1,0 +1,15 @@
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\bin\Debug\net6.0\system_math_tehtava.exe
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\bin\Debug\net6.0\system_math_tehtava.deps.json
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\bin\Debug\net6.0\system_math_tehtava.runtimeconfig.json
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\bin\Debug\net6.0\system_math_tehtava.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\bin\Debug\net6.0\system_math_tehtava.pdb
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.csproj.AssemblyReference.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.AssemblyInfoInputs.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.AssemblyInfo.cs
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.csproj.CoreCompileInputs.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\refint\system_math_tehtava.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.pdb
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\system_math_tehtava.genruntimeconfig.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\system_math_tehtava\obj\Debug\net6.0\ref\system_math_tehtava.dll

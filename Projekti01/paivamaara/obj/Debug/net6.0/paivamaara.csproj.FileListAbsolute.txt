@@ -1,0 +1,15 @@
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\bin\Debug\net6.0\paivamaara.exe
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\bin\Debug\net6.0\paivamaara.deps.json
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\bin\Debug\net6.0\paivamaara.runtimeconfig.json
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\bin\Debug\net6.0\paivamaara.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\bin\Debug\net6.0\paivamaara.pdb
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.csproj.AssemblyReference.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.AssemblyInfoInputs.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.AssemblyInfo.cs
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.csproj.CoreCompileInputs.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\refint\paivamaara.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.pdb
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\paivamaara.genruntimeconfig.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\paivamaara\obj\Debug\net6.0\ref\paivamaara.dll

@@ -1,0 +1,15 @@
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\bin\Debug\net6.0\Jani.exe
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\bin\Debug\net6.0\Jani.deps.json
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\bin\Debug\net6.0\Jani.runtimeconfig.json
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\bin\Debug\net6.0\Jani.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\bin\Debug\net6.0\Jani.pdb
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.csproj.AssemblyReference.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.AssemblyInfoInputs.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.AssemblyInfo.cs
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.csproj.CoreCompileInputs.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\refint\Jani.dll
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.pdb
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\Jani.genruntimeconfig.cache
+C:\Users\Opiskelija\source\repos\Ohjelmistokehittaja\Projekti01\Jani\obj\Debug\net6.0\ref\Jani.dll
