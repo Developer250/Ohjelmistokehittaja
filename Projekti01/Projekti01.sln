@@ -11,8 +11,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "paivamaara", "paivamaara\pa
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "system_math_tehtava", "system_math_tehtava\system_math_tehtava.csproj", "{43DA8FF0-B9B0-4E8B-83AF-DEA87B0321E7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp_loop", "c-sharp_loop\c-sharp_loop.csproj", "{FDE9893A-E013-4EEB-8E20-FA33323D6782}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -35,10 +33,6 @@ Global
 		{43DA8FF0-B9B0-4E8B-83AF-DEA87B0321E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43DA8FF0-B9B0-4E8B-83AF-DEA87B0321E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43DA8FF0-B9B0-4E8B-83AF-DEA87B0321E7}.Release|Any CPU.Build.0 = Release|Any CPU
-		{FDE9893A-E013-4EEB-8E20-FA33323D6782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDE9893A-E013-4EEB-8E20-FA33323D6782}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDE9893A-E013-4EEB-8E20-FA33323D6782}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDE9893A-E013-4EEB-8E20-FA33323D6782}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
