@@ -1,38 +1,20 @@
-﻿using System.Reflection;
-
-internal class Program
+﻿internal class Program
 {
     private static void Main(string[] args)
     {
-        //Ohjeistetaan käyttäjää laittamaan numero
-        Console.WriteLine("Enter the first number : ");
 
+        int x, y;
+        Console.WriteLine("Anna ensimmäinen luku");
+        x = Convert.ToInt32(Console.ReadLine());
 
-        Console.WriteLine("Enter the second number : ");
+        Console.WriteLine("Anna toinen luku");
+        y = Convert.ToInt32(Console.ReadLine());
 
+        if (x > y)
+            Console.Write(x + "" + y);
+        else {
+            Console.Write(y + "" + x);
+        }
 
-        Console.WriteLine("Enter the third number : ");
     }
-
-    if (number1 <= number2
-    && number1 >= number3 & number1 <= number3
-    && number1 >= number2)
-{
-    middle = number1;
-}
-else if (number2 <= number1
-    && number2 >= number3 & number2 <= number3
-    && number2 >= number1)
-{
-    middle = number2;
-}
-else if (number3 <= number1
-    && number3 >= number2 & number3 <= number2
-    && number3 >= number1)
-{
-    middle = number3;
-}
-
-
-
 }
