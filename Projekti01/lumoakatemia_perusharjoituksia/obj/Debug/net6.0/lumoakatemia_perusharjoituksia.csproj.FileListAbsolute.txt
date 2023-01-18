@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\bin\Debug\net6.0\lumoakatemia_perusharjoituksia.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\bin\Debug\net6.0\lumoakatemia_perusharjoituksia.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\bin\Debug\net6.0\lumoakatemia_perusharjoituksia.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\bin\Debug\net6.0\lumoakatemia_perusharjoituksia.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\bin\Debug\net6.0\lumoakatemia_perusharjoituksia.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\refint\lumoakatemia_perusharjoituksia.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\lumoakatemia_perusharjoituksia.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Projekti01\lumoakatemia_perusharjoituksia\obj\Debug\net6.0\ref\lumoakatemia_perusharjoituksia.dll

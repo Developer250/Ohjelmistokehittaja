@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\bin\Debug\net6.0\lumo_perusharjotukset_teht_4.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\bin\Debug\net6.0\lumo_perusharjotukset_teht_4.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\bin\Debug\net6.0\lumo_perusharjotukset_teht_4.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\bin\Debug\net6.0\lumo_perusharjotukset_teht_4.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\bin\Debug\net6.0\lumo_perusharjotukset_teht_4.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\refint\lumo_perusharjotukset_teht_4.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\lumo_perusharjotukset_teht_4.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjotukset_teht_4\obj\Debug\net6.0\ref\lumo_perusharjotukset_teht_4.dll

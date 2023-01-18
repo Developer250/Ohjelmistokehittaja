@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Projekti01",
+    "\\Projekti01\\paivamaara"
   ],
-  "SelectedNode": "\\Ekaprojektini.sln",
+  "SelectedNode": "\\Projekti01\\paivamaara\\paivamaara.csproj",
   "PreviewInSolutionExplorer": false
 }

@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\bin\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\bin\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\bin\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\bin\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\bin\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\refint\c-sharp_perusteet_diojen_harjoitukset.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\c-sharp_perusteet_diojen_harjoitukset.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset\obj\Debug\net6.0\ref\c-sharp_perusteet_diojen_harjoitukset.dll
