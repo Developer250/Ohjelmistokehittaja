@@ -3,15 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "c-sharp_perusteet_diojen_harjoitukset", "c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset.csproj", "{14F813F1-D43B-4427-96ED-D24979CA13C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "c-sharp_perusteet_diojen_harjoitukset", "c-sharp_perusteet_diojen_harjoitukset\c-sharp_perusteet_diojen_harjoitukset.csproj", "{14F813F1-D43B-4427-96ED-D24979CA13C5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_2", "tehtava_2\tehtava_2.csproj", "{E185010A-1CA9-4E76-AA89-FC6898926826}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tehtava_2", "tehtava_2\tehtava_2.csproj", "{E185010A-1CA9-4E76-AA89-FC6898926826}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_3", "..\tehtava_3\tehtava_3.csproj", "{80EB0FE2-6AD3-4FA6-8C75-6555843C2701}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tehtava_3", "..\tehtava_3\tehtava_3.csproj", "{80EB0FE2-6AD3-4FA6-8C75-6555843C2701}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_4", "tehtava_4\tehtava_4.csproj", "{500CBE99-8B6B-4234-BC43-5EAF4C947F2F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tehtava_4", "tehtava_4\tehtava_4.csproj", "{500CBE99-8B6B-4234-BC43-5EAF4C947F2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_5", "tehtava_5\tehtava_5.csproj", "{871ED4DE-9042-4CFD-8709-E76577B4E39B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tehtava_5", "tehtava_5\tehtava_5.csproj", "{871ED4DE-9042-4CFD-8709-E76577B4E39B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_7", "tehtava_7\tehtava_7.csproj", "{CD41DB29-72DE-4A12-92A8-86C541D2708B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_6", "tehtava_6\tehtava_6.csproj", "{DFF4993A-F0E2-49B2-A561-FE4698F3FF22}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{871ED4DE-9042-4CFD-8709-E76577B4E39B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{871ED4DE-9042-4CFD-8709-E76577B4E39B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{871ED4DE-9042-4CFD-8709-E76577B4E39B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD41DB29-72DE-4A12-92A8-86C541D2708B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD41DB29-72DE-4A12-92A8-86C541D2708B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD41DB29-72DE-4A12-92A8-86C541D2708B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD41DB29-72DE-4A12-92A8-86C541D2708B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DFF4993A-F0E2-49B2-A561-FE4698F3FF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DFF4993A-F0E2-49B2-A561-FE4698F3FF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DFF4993A-F0E2-49B2-A561-FE4698F3FF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DFF4993A-F0E2-49B2-A561-FE4698F3FF22}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
