@@ -2,11 +2,11 @@
 {
     public static void Main(string[] args)
     {
-        int x = 4;
-        int v = 5;
-        int summa = x + v;
+        int x = 3; //x:än sijoitetaan luku
+        int v = 5; //v:hen sijoitetaan luku
+        int summa = x + v; //summaan sijoitetaan a ja b:n luvut
         {
-           Console.WriteLine(summa);
+           Console.WriteLine(summa); //Tulostetaan konsoliin 
          }
         
     }
