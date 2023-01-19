@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\bin\Debug\net6.0\tehtava1.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\bin\Debug\net6.0\tehtava1.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\bin\Debug\net6.0\tehtava1.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\bin\Debug\net6.0\tehtava1.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\bin\Debug\net6.0\tehtava1.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\refint\tehtava1.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\tehtava1.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava1\obj\Debug\net6.0\ref\tehtava1.dll

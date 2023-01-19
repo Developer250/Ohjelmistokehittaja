@@ -1,45 +1,63 @@
 ﻿using System;
+using System.Collections.Generic;
 
-class Program
+namespace NumberToWords
 {
-   // taulukoita ones, tens ja hundreds tallentamaan numeroiden sanalliset vastineet.
-    static string[] yhdet = { "", "yksi", "kaksi", "kolme", "neljä", "viisi", "kuusi", "seitsemän", "kahdeksan", "yhdeksän" };
-    static string[] kymmenet = { "", "kymmenen", "kaksikymmentä", "kolmekymmentä", "neljäkymmentä", "viisikymmentä", "kuusikymmentä", "seitsemänkymmentä", "kahdeksankymmentä", "yhdeksänkymmentä" };
-    static string[] sadat = { "", "sata", "kaksisataa", "kolmisataa", "neljäsataa", "viisisataa", "kuusisataa", "seitsemänsataa", "kahdeksansataa", "yhdeksänsataa" };
-   
-    //NumberToWords-metodi käy läpi numeron eri osuudet (sataset, kymmenet, yksiköt) ja yhdistää ne sanoiksi.
-    static string NumeroSanoiksi(int numero)
+    class Program
     {
-        if (numero == 0)
-            return "nolla";
-
-        string sanat = "";
-
-        if ((numero / 100) > 0)
+        static void Main(string[] args)
         {
-            sanat += sadat[numero / 100] + " ";
-            numero %= 100;
+            Console.WriteLine(ConvertNumberToWords(1234567890));
+            Console.ReadLine();
         }
 
-        if ((numero / 10) > 0)
+        static string ConvertNumberToWords(int number)
         {
-            sanat += kymmenet[numero / 10] + " ";
-            numero %= 10;
-        }
+            if (number == 0)
+                return "no";
 
-        if (numero > 0)
-        {
-            sanat += yhdet[numero] + " ";
-        }
+            if (number < 0)
+                return "minus " + ConvertNumberToWords(Math.Abs(number));
 
-        return sanat;
-    }
-    //Main-metodi kutsuu NumeroSanoiksi-metodia esimerkkienumeroiden kanssa ja tulostaa ne konsolille.
-    static void Main(string[] args)
-    {
-        Console.WriteLine(NumeroSanoiksi(0));
-        Console.WriteLine(NumeroSanoiksi(12));
-        Console.WriteLine(NumeroSanoiksi(98));
-        Console.WriteLine(NumeroSanoiksi(273));
+            string words = "";
+
+            if ((number / 1000000) > 0)
+            {
+                words += ConvertNumberToWords(number / 1000000) + " million ";
+                number %= 1000000;
+            }
+
+            if ((number / 1000) > 0)
+            {
+                words += ConvertNumberToWords(number / 1000) + " thousand ";
+                number %= 1000;
+            }
+
+            if ((number / 100) > 0)
+            {
+                words += ConvertNumberToWords(number / 100) + " hundred ";
+                number %= 100;
+            }
+
+            if (number > 0)
+            {
+                if (words != "")
+                    words += "and ";
+
+                var unitsMap = new[] { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten", "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen" };
+                var tensMap = new[] { "zero", "ten", "twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety" };
+
+                if (number < 20)
+                    words += unitsMap[number];
+                else
+                {
+                    words += tensMap[number / 10];
+                    if ((number % 10) > 0)
+                        words += "-" + unitsMap[number % 10];
+                }
+            }
+
+            return words;
+        }
     }
 }
