@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\bin\Debug\net6.0\tehtava_16.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\bin\Debug\net6.0\tehtava_16.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\bin\Debug\net6.0\tehtava_16.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\bin\Debug\net6.0\tehtava_16.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\bin\Debug\net6.0\tehtava_16.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\refint\tehtava_16.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\tehtava_16.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\tehtava_16\obj\Debug\net6.0\ref\tehtava_16.dll
