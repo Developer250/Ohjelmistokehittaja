@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\bin\Debug\net6.0\Tehtava14.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\bin\Debug\net6.0\Tehtava14.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\bin\Debug\net6.0\Tehtava14.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\bin\Debug\net6.0\Tehtava14.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\bin\Debug\net6.0\Tehtava14.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\refint\Tehtava14.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\Tehtava14.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\c-shap_dia_68_harjoitukset_tehtava1\Tehtava14\obj\Debug\net6.0\ref\Tehtava14.dll
