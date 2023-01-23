@@ -1,0 +1,5 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Pankki\Pankkitesti\obj\Debug\net6.0\Pankkitesti.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Pankki\Pankkitesti\obj\Debug\net6.0\Pankkitesti.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Pankki\Pankkitesti\obj\Debug\net6.0\Pankkitesti.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Pankki\Pankkitesti\obj\Debug\net6.0\Pankkitesti.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\Pankki\Pankkitesti\obj\Debug\net6.0\Pankkitesti.csproj.CoreCompileInputs.cache
