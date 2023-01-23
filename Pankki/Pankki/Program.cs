@@ -1,8 +1,8 @@
 ﻿/// <summary>
 /// Pankkitililuokka
 /// </summary>
-namespace Pankki {
-
+namespace Pankki
+{
 
     public class Pankkitili
     {
@@ -68,3 +68,4 @@ namespace Pankki {
         }
     }
 }
+
