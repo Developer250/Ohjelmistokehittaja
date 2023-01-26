@@ -2,7 +2,7 @@
 {
     private static void Main(string[] args)
     {
-        Console.WindowHeight("Ole hyvä ja anna celsius luku");
+        Console.WriteLine("Ole hyvä ja anna celsius luku");
         double celsius;
         celsius = Convert.ToDouble(Console.ReadLine());
         double fareh = (celsius * 9) / 5 + 32;
