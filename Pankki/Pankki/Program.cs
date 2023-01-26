@@ -1,6 +1,9 @@
 ﻿/// <summary>
 /// Pankkitililuokka
 /// </summary>
+
+
+using System.Data;
 namespace Pankki
 {
 
@@ -8,7 +11,6 @@ namespace Pankki
     {
         private readonly string m_asiakkaanNimi;
         private double m_saldo;
-
 
         private Pankkitili() { }
 
@@ -29,8 +31,6 @@ namespace Pankki
         }
 
 
-
-
         public void Otto(double summa)
         {
             if (summa > m_saldo)
@@ -38,13 +38,13 @@ namespace Pankki
                 throw new ArgumentOutOfRangeException("summa");
             }
 
+            m_saldo -= summa;//Tarkoituksella väärä koodi, jotta voidaan testata
 
             if (summa < 0)
             {
                 throw new ArgumentOutOfRangeException("summa");
             }
 
-            m_saldo += summa; //Tarkoituksella väärä koodi, jotta voidaan testata
 
         }
 
@@ -54,17 +54,17 @@ namespace Pankki
             {
                 throw new ArgumentOutOfRangeException("summa");
             }
-            m_saldo += summa; //Tarkoituksella väärä koodi, jotta voidaan testata
+            m_saldo -= summa; //Tarkoituksella väärä koodi, jotta voidaan testata
 
         }
 
-        public static void Main()
+        public static void Main(string[] args)
         {
 
-            Pankkitili pt = new Pankkitili("Jani Kekäläinen", 1996, 26);
+            Pankkitili pt = new Pankkitili("Jani Kekäläinen", 5000.26);
             pt.Laitto(500);
             pt.Otto(20.66);
-            Console.WriteLine("Nykyinen saldo on {0} euroa", pt.Saldo);
+            Console.WriteLine("Nykyinen saldo on {0} euroa",pt.Saldo);
         }
     }
 }
