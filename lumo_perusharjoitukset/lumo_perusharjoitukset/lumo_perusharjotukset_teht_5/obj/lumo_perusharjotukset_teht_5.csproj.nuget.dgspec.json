@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj": {}
+    "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjoitukset\\lumo_perusharjoitukset\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj": {}
   },
   "projects": {
-    "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj": {
+    "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjoitukset\\lumo_perusharjoitukset\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj",
+        "projectUniqueName": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjoitukset\\lumo_perusharjoitukset\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj",
         "projectName": "lumo_perusharjotukset_teht_5",
-        "projectPath": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj",
+        "projectPath": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjoitukset\\lumo_perusharjoitukset\\lumo_perusharjotukset_teht_5\\lumo_perusharjotukset_teht_5.csproj",
         "packagesPath": "C:\\Users\\janik\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjotukset_teht_5\\obj\\",
+        "outputPath": "C:\\Users\\janik\\source\\repos\\Ohjelmistokehittaja2\\lumo_perusharjoitukset\\lumo_perusharjoitukset\\lumo_perusharjotukset_teht_5\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
