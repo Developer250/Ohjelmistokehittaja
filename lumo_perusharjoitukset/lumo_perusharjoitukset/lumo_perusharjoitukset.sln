@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava8", "Tehtava8\Tehtava8.csproj", "{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava_9", "Tehtava_9\Tehtava_9.csproj", "{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava10", "Tehtava10\Tehtava10.csproj", "{DD4B464C-C230-49ED-938A-C6C3E9F85425}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6B12DA5F-EDEB-4DE3-A386-AD92F468B095}
+	EndGlobalSection
+EndGlobal

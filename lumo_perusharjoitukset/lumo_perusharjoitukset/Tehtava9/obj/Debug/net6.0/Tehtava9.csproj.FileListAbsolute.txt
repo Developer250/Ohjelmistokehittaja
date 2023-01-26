@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\bin\Debug\net6.0\Tehtava9.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\bin\Debug\net6.0\Tehtava9.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\bin\Debug\net6.0\Tehtava9.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\bin\Debug\net6.0\Tehtava9.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\bin\Debug\net6.0\Tehtava9.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\refint\Tehtava9.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\Tehtava9.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\Tehtava9\obj\Debug\net6.0\ref\Tehtava9.dll
