@@ -12,10 +12,12 @@ namespace tehtava_3
         }
 
         private void laskeBT_Click(object sender, EventArgs e)
+            //Tehd‰‰n alustukset
         {
             double luku1 = double.Parse(luku1TB.Text); // t‰ss‰ joudumme tekem‰‰n lukumuunnoksen tekstist‰ liukuluvuksi komennolla float.Parse(luku)
-            double luku2 = double.Parse(luku2TB.Text); 
-            double vastaus = 0; 
+            double luku2 = double.Parse(luku2TB.Text);
+            double vastaus = 0;
+            double vastaus2 = 0;
             string merkki = LaskutoimitusCB.Text;
 
 
@@ -31,13 +33,13 @@ namespace tehtava_3
                     vastaus = luku1 * luku2;
                     break;
                 case "/":
-                    double vastaus2 = luku1 / luku2;
+                vastaus2 = luku1/luku2; // t‰ss‰ double, koska voi tulla murtoluku 
                     break;
-
                 default:
                     Console.WriteLine("Tapahtui virhe!");
                     break;
             }
+            //Tulostetaan lasku
             VastausLB.Text = Convert.ToString(vastaus);
             VastausLB.Visible = true;
         }

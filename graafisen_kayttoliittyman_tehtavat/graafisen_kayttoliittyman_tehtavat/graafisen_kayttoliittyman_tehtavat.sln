@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "harjoitsu_2", "harjoitsu_2\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tehtava_3", "tehtava_3\tehtava_3.csproj", "{9C226327-D1A1-4CD5-8C0E-EE29C03E2354}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_4", "tehtava_4\tehtava_4.csproj", "{1F609972-ACAF-45A6-ABA7-A3ECA2DE0E69}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tehtava_4", "tehtava_4\tehtava_4.csproj", "{1F609972-ACAF-45A6-ABA7-A3ECA2DE0E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tehtava_5", "tehtava_5\tehtava_5.csproj", "{51A828C3-B527-463D-803C-0E464676D336}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{1F609972-ACAF-45A6-ABA7-A3ECA2DE0E69}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F609972-ACAF-45A6-ABA7-A3ECA2DE0E69}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F609972-ACAF-45A6-ABA7-A3ECA2DE0E69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51A828C3-B527-463D-803C-0E464676D336}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51A828C3-B527-463D-803C-0E464676D336}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51A828C3-B527-463D-803C-0E464676D336}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51A828C3-B527-463D-803C-0E464676D336}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
