@@ -1,0 +1,7 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.Form1.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\harjoitukset\Graafisen_kayttoliittyman_harjoitukset\Harjoitus3\obj\Debug\net6.0-windows\Harjoitus3.csproj.CoreCompileInputs.cache
