@@ -1,0 +1,17 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\bin\Debug\net6.0-windows\Harjoitus2.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\bin\Debug\net6.0-windows\Harjoitus2.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\bin\Debug\net6.0-windows\Harjoitus2.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\bin\Debug\net6.0-windows\Harjoitus2.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\bin\Debug\net6.0-windows\Harjoitus2.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.Form1.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\refint\Harjoitus2.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\Harjoitus2.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafinen_kayttoliittyma_tethavat\Graafisen_kayttoliittyman_harjoitukset\Harjoitus2\obj\Debug\net6.0-windows\ref\Harjoitus2.dll
