@@ -19,15 +19,16 @@ namespace tehtava_4
             double erotus = Math.Round((nyt - synttari).TotalDays);
             VuosissaLB.Text = Math.Ceiling(erotus / 365.25) + "vuotta";
             KuukausissaLB.Text = Math.Ceiling(erotus * 12 / 365.25) + "kuukautta";
-            PaivissaLB.Text = erotus + "p‰iv‰‰";
-            TunneissaLB.Text = (erotus * 24) + "tuntia";
-            MinuuteissaB.Text = (erotus * 24 * 60) + "minuuttia";
-            SekunneissaB.Text = (erotus * 24 * 60 * 60) + "sekuntia";
+            PaivissaLB.Text = erotus + " p‰iv‰‰";
+            TunneissaLB.Text = (erotus * 24) + " tuntia";
+            MinuuteissaB.Text = (erotus * 24 * 60) + " minuuttia";
+            SekunneissaB.Text = (erotus * 24 * 60 * 60) + " sekuntia";
 
             VuosissaLB.Visible = true;
             KuukausissaLB.Visible = true;
             PaivissaLB.Visible = true;
-            VuosissaLB.Visible = true;
+            MinuuteissaB.Visible = true;
+            SekunneissaB.Visible = true;
         }
     }
 }
