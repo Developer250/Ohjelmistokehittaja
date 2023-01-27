@@ -46,6 +46,7 @@
             this.LaskeIkaBT.TabIndex = 0;
             this.LaskeIkaBT.Text = "Laske ikä";
             this.LaskeIkaBT.UseVisualStyleBackColor = true;
+            this.LaskeIkaBT.Click += new System.EventHandler(this.LaskeIkaBT_Click);
             // 
             // SyntymaAikaDT
             // 
@@ -62,6 +63,7 @@
             this.VuosissaLB.Size = new System.Drawing.Size(61, 20);
             this.VuosissaLB.TabIndex = 2;
             this.VuosissaLB.Text = "Vuosina";
+            this.VuosissaLB.Visible = false;
             // 
             // KuukausissaLB
             // 
@@ -71,6 +73,7 @@
             this.KuukausissaLB.Size = new System.Drawing.Size(87, 20);
             this.KuukausissaLB.TabIndex = 3;
             this.KuukausissaLB.Text = "Kuukausissa";
+            this.KuukausissaLB.Visible = false;
             // 
             // PaivissaLB
             // 
@@ -80,6 +83,7 @@
             this.PaivissaLB.Size = new System.Drawing.Size(59, 20);
             this.PaivissaLB.TabIndex = 4;
             this.PaivissaLB.Text = "Päivissä";
+            this.PaivissaLB.Visible = false;
             // 
             // TunneissaLB
             // 
@@ -89,6 +93,7 @@
             this.TunneissaLB.Size = new System.Drawing.Size(73, 20);
             this.TunneissaLB.TabIndex = 5;
             this.TunneissaLB.Text = "Tunneissa";
+            this.TunneissaLB.Visible = false;
             // 
             // MinuuteissaB
             // 
@@ -98,6 +103,7 @@
             this.MinuuteissaB.Size = new System.Drawing.Size(87, 20);
             this.MinuuteissaB.TabIndex = 6;
             this.MinuuteissaB.Text = "Minuuteissa";
+            this.MinuuteissaB.Visible = false;
             // 
             // SekunneissaB
             // 
@@ -107,6 +113,7 @@
             this.SekunneissaB.Size = new System.Drawing.Size(88, 20);
             this.SekunneissaB.TabIndex = 7;
             this.SekunneissaB.Text = "Sekunneissa";
+            this.SekunneissaB.Visible = false;
             // 
             // Form1
             // 
@@ -123,6 +130,7 @@
             this.Controls.Add(this.LaskeIkaBT);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
