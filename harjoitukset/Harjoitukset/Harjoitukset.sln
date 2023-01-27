@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33213.308
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitukset", "Harjoitukset\Harjoitukset.csproj", "{F6A91C48-59C8-46CA-AE6A-CFC8C19660FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Harjoitus2", "Harjoitus2\Harjoitus2.csproj", "{B17E320B-2DA3-4680-9BFD-56A0075613A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6A91C48-59C8-46CA-AE6A-CFC8C19660FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6A91C48-59C8-46CA-AE6A-CFC8C19660FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6A91C48-59C8-46CA-AE6A-CFC8C19660FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6A91C48-59C8-46CA-AE6A-CFC8C19660FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17E320B-2DA3-4680-9BFD-56A0075613A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17E320B-2DA3-4680-9BFD-56A0075613A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17E320B-2DA3-4680-9BFD-56A0075613A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17E320B-2DA3-4680-9BFD-56A0075613A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B742C215-C58C-48A9-8C93-37DD3A9468AC}
+	EndGlobalSection
+EndGlobal
