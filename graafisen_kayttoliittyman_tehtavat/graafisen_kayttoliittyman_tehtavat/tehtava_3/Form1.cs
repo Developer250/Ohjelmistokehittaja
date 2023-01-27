@@ -2,6 +2,10 @@ namespace tehtava_3
 {
     public partial class Form1 : Form
     {
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
         public Form1()
         {
             InitializeComponent();
@@ -9,9 +13,10 @@ namespace tehtava_3
 
         private void laskeBT_Click(object sender, EventArgs e)
         {
-            float luku1 = float.Parse(LukuYksiTB.Text); // t‰ss‰ joudumme tekem‰‰n lukumuunnoksen tekstist‰ liukuluvuksi komennolla float.Parse(luku)
-            float luku2 = float.Parse(LukuKaksiTB.Text); 
-            float vastaus = 0; string merkki = LaskutoimitusCB.Text;
+            double luku1 = double.Parse(luku1TB.Text); // t‰ss‰ joudumme tekem‰‰n lukumuunnoksen tekstist‰ liukuluvuksi komennolla float.Parse(luku)
+            double luku2 = double.Parse(luku2TB.Text); 
+            double vastaus = 0; 
+            string merkki = LaskutoimitusCB.Text;
 
 
             switch (merkki)
@@ -36,10 +41,5 @@ namespace tehtava_3
             VastausLB.Text = Convert.ToString(vastaus);
             VastausLB.Visible = true;
         }
-
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
     }
-    }
+}

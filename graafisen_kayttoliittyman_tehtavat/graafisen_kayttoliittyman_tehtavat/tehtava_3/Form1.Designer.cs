@@ -34,15 +34,16 @@
             this.LukuKaksiTB = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.VastausLB = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.LukuKaksiB = new System.Windows.Forms.Label();
+            this.luku1TB = new System.Windows.Forms.TextBox();
+            this.luku2TB = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // laskeBT
             // 
-            this.laskeBT.Location = new System.Drawing.Point(601, 73);
+            this.laskeBT.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.laskeBT.Location = new System.Drawing.Point(622, 74);
             this.laskeBT.Name = "laskeBT";
-            this.laskeBT.Size = new System.Drawing.Size(94, 29);
+            this.laskeBT.Size = new System.Drawing.Size(95, 49);
             this.laskeBT.TabIndex = 0;
             this.laskeBT.Text = "laske";
             this.laskeBT.UseVisualStyleBackColor = true;
@@ -50,6 +51,7 @@
             // 
             // LaskutoimitusCB
             // 
+            this.LaskutoimitusCB.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.LaskutoimitusCB.FormattingEnabled = true;
             this.LaskutoimitusCB.Items.AddRange(new object[] {
             "+",
@@ -58,7 +60,7 @@
             "/"});
             this.LaskutoimitusCB.Location = new System.Drawing.Point(260, 74);
             this.LaskutoimitusCB.Name = "LaskutoimitusCB";
-            this.LaskutoimitusCB.Size = new System.Drawing.Size(54, 28);
+            this.LaskutoimitusCB.Size = new System.Drawing.Size(54, 45);
             this.LaskutoimitusCB.TabIndex = 1;
             // 
             // LukuYksiTB
@@ -82,7 +84,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(464, 78);
+            this.label1.Location = new System.Drawing.Point(464, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(19, 20);
             this.label1.TabIndex = 4;
@@ -91,37 +93,36 @@
             // VastausLB
             // 
             this.VastausLB.AutoSize = true;
-            this.VastausLB.Location = new System.Drawing.Point(525, 78);
+            this.VastausLB.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.VastausLB.Location = new System.Drawing.Point(489, 77);
             this.VastausLB.Name = "VastausLB";
-            this.VastausLB.Size = new System.Drawing.Size(58, 20);
+            this.VastausLB.Size = new System.Drawing.Size(109, 38);
             this.VastausLB.TabIndex = 5;
             this.VastausLB.Text = "Vastaus";
             // 
-            // label2
+            // luku1TB
             // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(110, 79);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(50, 20);
-            this.label2.TabIndex = 6;
-            this.label2.Text = "label2";
+            this.luku1TB.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.luku1TB.Location = new System.Drawing.Point(97, 75);
+            this.luku1TB.Name = "luku1TB";
+            this.luku1TB.Size = new System.Drawing.Size(125, 43);
+            this.luku1TB.TabIndex = 6;
             // 
-            // LukuKaksiB
+            // luku2TB
             // 
-            this.LukuKaksiB.AutoSize = true;
-            this.LukuKaksiB.Location = new System.Drawing.Point(367, 80);
-            this.LukuKaksiB.Name = "LukuKaksiB";
-            this.LukuKaksiB.Size = new System.Drawing.Size(50, 20);
-            this.LukuKaksiB.TabIndex = 7;
-            this.LukuKaksiB.Text = "label3";
+            this.luku2TB.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.luku2TB.Location = new System.Drawing.Point(333, 78);
+            this.luku2TB.Name = "luku2TB";
+            this.luku2TB.Size = new System.Drawing.Size(125, 43);
+            this.luku2TB.TabIndex = 7;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.LukuKaksiB);
-            this.Controls.Add(this.label2);
+            this.Controls.Add(this.luku2TB);
+            this.Controls.Add(this.luku1TB);
             this.Controls.Add(this.VastausLB);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.LukuKaksiTB);
@@ -144,7 +145,7 @@
         private Label LukuKaksiTB;
         private Label label1;
         private Label VastausLB;
-        private Label label2;
-        private Label LukuKaksiB;
+        private TextBox luku1TB;
+        private TextBox luku2TB;
     }
 }
