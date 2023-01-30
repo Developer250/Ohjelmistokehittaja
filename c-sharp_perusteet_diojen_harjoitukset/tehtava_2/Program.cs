@@ -1,46 +1,44 @@
 ﻿using System;
 namespace tehtava_2
 {
-    class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
+        //Ohjeistetaan käyttäjää laittamaan kolme numeroa
+        Console.WriteLine("Anna ensimmäinen luku : ");
+        double luku1 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Anna toinen luku : ");
+        double luku2 = int.Parse(Console.ReadLine());
+
+        Console.WriteLine("Anna kolmas luku : ");
+        double luku3 = int.Parse(Console.ReadLine());
+
+        //Vertaillaan  luku keskenään ja tulostetaan suurin luku
+        if (luku1 > luku2)
         {
-            //Määritetään kokonaisluvuksi
-            int first, second, third;
 
-            //Ohjeistetaan käyttäjää laittamaan numero
-            Console.WriteLine("Enter the first number : ");
-            first = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Enter the second number : ");
-            second = int.Parse(Console.ReadLine());
-
-            Console.WriteLine("Enter the third number : ");
-            third = int.Parse(Console.ReadLine());
-
-            //Vertaillaan ja tulostetaan
-            if (first > second)
+            if (luku1 > luku3)
             {
-                //4
-                if (first > third)
-                {
-                    Console.WriteLine("largest number : " + first);
-                }
-                else
-                {
-                    Console.WriteLine("largest number : " + third);
-                }
+                Console.WriteLine("largest number : " + luku1);
             }
+
             else
             {
-                if (second > third)
-                {
-                    Console.WriteLine("largest number : " + second);
-                }
-                else
-                {
-                    Console.WriteLine("largest number : " + third);
-                }
+                Console.WriteLine("largest number : " + luku3);
+            }
+        }
+
+        //Muutoin,jos luku2 on jostain syystä suurempi kuin kolmas annettu luku, tulostetaan luku2 annettu luku suurimmaksi
+        else
+        {
+            if (luku2 > luku3)
+            {
+                Console.WriteLine("largest number : " + luku2);
+            }
+            //Muutoin,jos luku3 on jostain syystä suurempi kuin muut annetut luvut, tulostetaan luku3 annettu luku suurimmaksi
+            else
+            {
+                Console.WriteLine("largest number : " + luku3);
             }
         }
     }
