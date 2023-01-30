@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\bin\Debug\net6.0\´Tehtava15.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\bin\Debug\net6.0\´Tehtava15.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\bin\Debug\net6.0\´Tehtava15.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\bin\Debug\net6.0\´Tehtava15.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\bin\Debug\net6.0\´Tehtava15.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\refint\´Tehtava15.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\´Tehtava15.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\lumo_perusharjoitukset\lumo_perusharjoitukset\´Tehtava15\obj\Debug\net6.0\ref\´Tehtava15.dll
