@@ -1,0 +1,17 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.Form1.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\bin\Debug\net6.0-windows\Tehtava5.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\bin\Debug\net6.0-windows\Tehtava5.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\bin\Debug\net6.0-windows\Tehtava5.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\bin\Debug\net6.0-windows\Tehtava5.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\bin\Debug\net6.0-windows\Tehtava5.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\refint\Tehtava5.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\Tehtava5.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Tehtava5\obj\Debug\net6.0-windows\ref\Tehtava5.dll

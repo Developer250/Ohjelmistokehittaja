@@ -4,7 +4,7 @@ namespace tehtava_5
 {
     public partial class LukuJ‰rjestys : Form
     {
-        List<int> jono = new List<int>();
+        List<int> jono = new List<int>(); //M‰‰ritet‰‰n ulkopuolelle, jotta texbox ei m‰‰rity joka kerta
 
         public LukuJ‰rjestys()
         {
@@ -17,7 +17,7 @@ namespace tehtava_5
             if (e.KeyChar == (char)Keys.Enter) ;
 
             //Tarkistetaan mit‰ sitten tapahtuu //Tyhjennet‰‰n
-            if (uusiLukuTB.Text == "-999")
+            if (uusilukuTB.Text == "-999")
             {
                 VastausLB.Text = "";
                 int[] taulukko = jono.ToArray();//Muutetaan lista-muuttuja taulukko-muuttujaksi
@@ -30,8 +30,8 @@ namespace tehtava_5
             }
             else
             {
-                jono.Add(Int32.Parse(uusiLukuTB.Text));
-                uusiLukuTB.Text = "";
+                jono.Add(Int32.Parse(uusilukuTB.Text));
+                uusilukuTB.Text = "";
             }
         }
             if (e.KeyChar == (char) Keys.Escape)
@@ -46,7 +46,10 @@ namespace tehtava_5
 
         private void TyhjaaLomake()
         {
-            uusiLukuTB.Text = "";
+            uusilukuTB.Text = "";
         }
+
+        
+
     }
 }
