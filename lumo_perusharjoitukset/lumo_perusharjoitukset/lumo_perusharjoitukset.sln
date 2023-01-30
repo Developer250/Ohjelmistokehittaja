@@ -3,11 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava8", "Tehtava8\Tehtava8.csproj", "{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tehtava8", "Tehtava8\Tehtava8.csproj", "{A2B49FC5-A311-4564-A3D3-FB66C3CDCAC9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava_9", "Tehtava_9\Tehtava_9.csproj", "{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tehtava_9", "Tehtava_9\Tehtava_9.csproj", "{CB49CFDE-86C1-4D57-A0E7-70E235864E2A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava10", "Tehtava10\Tehtava10.csproj", "{DD4B464C-C230-49ED-938A-C6C3E9F85425}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tehtava10", "Tehtava10\Tehtava10.csproj", "{DD4B464C-C230-49ED-938A-C6C3E9F85425}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava11", "Tehtava11\Tehtava11.csproj", "{1346EF23-F7E7-45AE-8904-FA654C44E0AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tehtava12", "Tehtava12\Tehtava12.csproj", "{C7FA8427-3BD3-4250-8C9E-8FDE864BD208}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +31,14 @@ Global
 		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD4B464C-C230-49ED-938A-C6C3E9F85425}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1346EF23-F7E7-45AE-8904-FA654C44E0AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1346EF23-F7E7-45AE-8904-FA654C44E0AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1346EF23-F7E7-45AE-8904-FA654C44E0AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1346EF23-F7E7-45AE-8904-FA654C44E0AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7FA8427-3BD3-4250-8C9E-8FDE864BD208}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7FA8427-3BD3-4250-8C9E-8FDE864BD208}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7FA8427-3BD3-4250-8C9E-8FDE864BD208}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7FA8427-3BD3-4250-8C9E-8FDE864BD208}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
