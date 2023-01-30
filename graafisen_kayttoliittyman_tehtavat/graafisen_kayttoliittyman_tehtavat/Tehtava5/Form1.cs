@@ -4,12 +4,10 @@ namespace Tehtava5
     {
         List<int> jono = new List<int>(); //M‰‰ritet‰‰n ulkopuolelle, jotta texbox ei m‰‰rity joka kerta
 
-
         public Form1()
         {
             InitializeComponent();
         }
-
 
         private void uusiLukuTB_TextChanged(object sender, KeyPressEventArgs e)
         {
@@ -29,25 +27,25 @@ namespace Tehtava5
                 {
                     VastausLB.Text = "";
                     int[] taulukko = jono.ToArray();//Muutetaan lista-muuttuja taulukko-muuttujaksi
-                    Array.Sort(taulukko);
+                    Array.Sort(taulukko);//J‰rjestet‰‰n taulukko
                     foreach (var jasen in taulukko)//K‰yd‰‰n l‰pi jokainen j‰sen taulukosta
                     {
                         VastausLB.Text += jasen + " ";//Lis‰t‰‰n vastaukseen uusi j‰sen ja tehd‰‰n v‰lit niiden v‰lille
                     }
-                    VastausLB.Visible = true;
+                    VastausLB.Visible = true;//N‰ytet‰‰n vastaus
                 }
                 else
                 {
-                    jono.Add(Int32.Parse(uusiLukuTB.Text));
+                    jono.Add(Int32.Parse(uusiLukuTB.Text));//Jonoon lis‰t‰‰n uusiluku.text ja muutetaan integeriksi
                     uusiLukuTB.Text = "";
                 }
             }
+            //Tyh‰t‰‰n lomake ja tarkastetaan mit‰ tapahtuu, kun escapea painetaan
             if (e.KeyChar == (char)Keys.Escape)
             {
                 TyhjaaLomake();
             }
         }
-
         private void uusiLukuTB_TextChanged(object sender, EventArgs e)
         {
 
