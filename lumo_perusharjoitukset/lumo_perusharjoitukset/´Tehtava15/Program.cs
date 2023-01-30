@@ -8,8 +8,7 @@
         double b = Convert.ToDouble(Console.ReadLine());//Lisätään b-muuttujaan muuntaja
         
         double vastaus;
-         vastaus = a - b;
-
+        vastaus = a - b;
         Console.WriteLine(" Vastaus on:" + vastaus);
     }
 }
