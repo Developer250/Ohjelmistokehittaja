@@ -17,6 +17,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Tehtava5", "Tehtava5\Tehtav
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SalasananTarkastus", "SalasananTarkastus\SalasananTarkastus.csproj", "{F9E33626-F128-4856-9987-71DCD93E38E9}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "salasanan_trkastus", "salasanan_trkastus\salasanan_trkastus.csproj", "{DCE631E0-3546-4936-AB4A-E54DA2F58090}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{F9E33626-F128-4856-9987-71DCD93E38E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9E33626-F128-4856-9987-71DCD93E38E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9E33626-F128-4856-9987-71DCD93E38E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCE631E0-3546-4936-AB4A-E54DA2F58090}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCE631E0-3546-4936-AB4A-E54DA2F58090}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCE631E0-3546-4936-AB4A-E54DA2F58090}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCE631E0-3546-4936-AB4A-E54DA2F58090}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
