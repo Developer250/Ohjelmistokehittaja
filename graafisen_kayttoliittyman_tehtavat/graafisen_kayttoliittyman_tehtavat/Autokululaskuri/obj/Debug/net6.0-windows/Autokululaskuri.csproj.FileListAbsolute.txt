@@ -1,0 +1,17 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\bin\Debug\net6.0-windows\Autokululaskuri.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\bin\Debug\net6.0-windows\Autokululaskuri.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\bin\Debug\net6.0-windows\Autokululaskuri.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\bin\Debug\net6.0-windows\Autokululaskuri.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\bin\Debug\net6.0-windows\Autokululaskuri.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.Form1.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\refint\Autokululaskuri.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\Autokululaskuri.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Autokululaskuri\obj\Debug\net6.0-windows\ref\Autokululaskuri.dll
