@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(RoomalaisiksiFOrm));
             this.label1 = new System.Windows.Forms.Label();
             this.vastausLB = new System.Windows.Forms.Label();
             this.tekstiTB = new System.Windows.Forms.TextBox();
@@ -38,6 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
+            this.label1.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.label1.Font = new System.Drawing.Font("Comic Sans MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.label1.Location = new System.Drawing.Point(347, 9);
             this.label1.Name = "label1";
@@ -48,6 +50,7 @@
             // vastausLB
             // 
             this.vastausLB.AutoSize = true;
+            this.vastausLB.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.vastausLB.Font = new System.Drawing.Font("Comic Sans MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.vastausLB.Location = new System.Drawing.Point(75, 173);
             this.vastausLB.Name = "vastausLB";
@@ -58,6 +61,8 @@
             // 
             // tekstiTB
             // 
+            this.tekstiTB.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.tekstiTB.ForeColor = System.Drawing.Color.Snow;
             this.tekstiTB.Location = new System.Drawing.Point(850, 98);
             this.tekstiTB.Name = "tekstiTB";
             this.tekstiTB.Size = new System.Drawing.Size(130, 45);
@@ -66,6 +71,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.label2.Location = new System.Drawing.Point(75, 104);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(744, 39);
@@ -74,18 +80,20 @@
             // 
             // muutaBT
             // 
+            this.muutaBT.BackColor = System.Drawing.Color.PaleGoldenrod;
             this.muutaBT.Location = new System.Drawing.Point(850, 186);
             this.muutaBT.Name = "muutaBT";
             this.muutaBT.Size = new System.Drawing.Size(130, 52);
             this.muutaBT.TabIndex = 4;
             this.muutaBT.Text = "Muuta";
-            this.muutaBT.UseVisualStyleBackColor = true;
+            this.muutaBT.UseVisualStyleBackColor = false;
             this.muutaBT.Click += new System.EventHandler(this.muutaBT_Click);
             // 
             // RoomalaisiksiFOrm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 38F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1700, 855);
             this.Controls.Add(this.muutaBT);
             this.Controls.Add(this.label2);

@@ -15,3 +15,4 @@ C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehta
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Roomalaiset_nrot\obj\Debug\net6.0-windows\Roomalaiset_nrot.pdb
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Roomalaiset_nrot\obj\Debug\net6.0-windows\Roomalaiset_nrot.genruntimeconfig.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Roomalaiset_nrot\obj\Debug\net6.0-windows\ref\Roomalaiset_nrot.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Roomalaiset_nrot\obj\Debug\net6.0-windows\Roomalaiset_nrot.Properties.Resources.resources
