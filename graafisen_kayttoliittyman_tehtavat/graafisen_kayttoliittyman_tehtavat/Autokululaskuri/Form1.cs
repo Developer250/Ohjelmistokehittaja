@@ -30,7 +30,7 @@ namespace Autokululaskuri
             kilometrit = Convert.ToDouble(KilometritCB.Text);
             energia = Convert.ToDouble(polttonesteTB.Text);
             muut = Convert.ToDouble(muutKulutTB.Text);
-            kustannukset = (laina + nesteet + vakuutusmaksut + pesut + huollot + renkaat + kilometrit + energia + muut) / (kilometrit/12);//Lasketaan vuosikustannukset
+            kustannukset = (laina + nesteet + vakuutusmaksut + pesut + huollot + renkaat + kilometrit + energia + muut) / (kilometrit / 12);//Lasketaan vuosikustannukset
             vastausLB.Text = "Kustannukset kilometriä kohden ovat: " + kustannukset;
             vastausLB.Visible = true;
 
