@@ -1,4 +1,4 @@
-namespace salasanan_trkastus
+namespace salasana_tarkastus
 {
     public partial class Form1 : Form
     {
@@ -7,24 +7,14 @@ namespace salasanan_trkastus
             InitializeComponent();
         }
 
-        private void KayttajaTB_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
 
         }
 
-        private void panel1_Paint(object sender, PaintEventArgs e)
+        private void TarkistaBT_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void panel1_Paint_1(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void TarkistaTB_Click(object sender, EventArgs e)
-        {
-            if(KayttajaTB.Text == "Jani" && SalasanaTB.Text == "Klassikko9!")
+            if(KayttajaTB.Text == "Jani" && SalasanaTB.Text == "Klassikko!")
             {
                 SalasanaPanel.Visible = false;
                 SalasanaOikeinPanel.Visible = true;
