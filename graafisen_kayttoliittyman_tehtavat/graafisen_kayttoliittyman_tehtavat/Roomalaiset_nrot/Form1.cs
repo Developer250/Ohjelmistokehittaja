@@ -35,6 +35,8 @@ namespace Roomalaiset_nrot
                     vastaus += "";
                 }
                 vastaus += sataset(luku2, vastaus); //Lähetetään mitä tuhansista tuli vastaus (M) ja lisätään vastaukseen mitä satasesta tuli (C)
+                vastaus += kympit(luku3, vastaus);
+                vastaus += ykkoset(luku4, vastaus);
             }
         }
           private string sataset (int luku2, string vastaus)
