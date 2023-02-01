@@ -26,12 +26,12 @@ namespace Autokululaskuri
             vakuutusmaksut = Convert.ToDouble(vakuutusmaksutTB.Text);
             pesut = Convert.ToDouble(pesutTB.Text);
             huollot = Convert.ToDouble(huollotTB.Text);
-            muut = Convert.ToDouble(muutKulutTB.Text);
             renkaat = Convert.ToDouble(renkaatTB.Text);
             kilometrit = Convert.ToDouble(KilometritCB.Text);
             energia = Convert.ToDouble(polttonesteTB.Text);
-            kustannukset = Convert.ToDouble(laina + nesteet + vakuutusmaksut + pesut + huollot + muut + renkaat + kilometrit + energia) / (kilometrit/12);
-            vastausLB.Text = "Kustannukset kilometriä kohden ovat:" + kustannukset;
+            muut = Convert.ToDouble(muutKulutTB.Text);
+            kustannukset = (laina + nesteet + vakuutusmaksut + pesut + huollot + renkaat + kilometrit + energia + muut) / (kilometrit/12);//Lasketaan vuosikustannukset
+            vastausLB.Text = "Kustannukset kilometriä kohden ovat: " + kustannukset;
             vastausLB.Visible = true;
 
         }

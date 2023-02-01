@@ -82,6 +82,7 @@
             // 
             this.SalasanaTB.Location = new System.Drawing.Point(364, 92);
             this.SalasanaTB.Name = "SalasanaTB";
+            this.SalasanaTB.PasswordChar = '*';
             this.SalasanaTB.Size = new System.Drawing.Size(277, 47);
             this.SalasanaTB.TabIndex = 3;
             // 
