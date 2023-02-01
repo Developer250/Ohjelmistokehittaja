@@ -14,13 +14,16 @@ namespace salasana_tarkastus
 
         private void TarkistaBT_Click(object sender, EventArgs e)
         {
-            if(KayttajaTB.Text == "Jani" && SalasanaTB.Text == "Klassikko!")
+            //Tarkistetaan vastaako käyttäjän syöttämä sana "Jani" käyttäjätunnus.text kohdassa
+            //Tarkistetaan myös SalasanaTB.Text kohdassa sanalla "Klassikko!"
+            if (KayttajaTB.Text == "Jani" && SalasanaTB.Text == "Klassikko!")
             {
                 SalasanaPanel.Visible = false;
-                SalasanaOikeinPanel.Visible = true;
+                SalasanaOikeinPanel.Visible = true;//Jos salsana ja käyttätunnus ovat oikein, siirtyy tarkistamisen jälkeen suoraan "tervetuloa sivuilleni" paneeliin
             }
             else
             {
+                //Muutoin tulosteaan virheviesti esille
                 VirheviestiLB.Text = "Käyttäjätunnus tai salasana on virheellinen";
                 VirheviestiLB.Visible = true;
             }
