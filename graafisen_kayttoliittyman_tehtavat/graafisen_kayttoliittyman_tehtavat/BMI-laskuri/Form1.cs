@@ -12,7 +12,7 @@ namespace BMI_laskuri
             double paino = 0, pituus = 0;
             paino = Convert.ToDouble(painoTB.Text);
             pituus = Convert.ToDouble(pituusTB.Text);
-            double BMI = Math.Round(paino / (paino * pituus), 2);//Pyöristetään 2-desimaalin arvoon painoinkdeksi
+            double BMI = Math.Round(paino / (pituus * pituus), 2);//Pyöristetään 2-desimaalin arvoon painoinkdeksi
 
             if(BMI < 18.5)//Tarkistetaan painoindeksi
             {
@@ -31,7 +31,7 @@ namespace BMI_laskuri
                 vastausLB.Visible = true;
                 kuvainnollinenLB.Visible = true;//Tulostetaan näkyviin
             }
-            if(BMI < 40)
+             else if(BMI < 40)
             {
                 vastausLB.Text = "Painoindeksisi on: " + BMI;//Vastaukseen sijoitetaan teksti ja itse painoindeksi
                 vastausLB.ForeColor = Color.Gold;//Vastaus tekstin väri vesi
