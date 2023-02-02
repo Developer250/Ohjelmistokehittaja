@@ -36,6 +36,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.SalasanaOikeinPanel = new System.Windows.Forms.Panel();
+            this.naytaCB = new System.Windows.Forms.CheckBox();
             this.label3 = new System.Windows.Forms.Label();
             this.SalasanaPanel.SuspendLayout();
             this.SalasanaOikeinPanel.SuspendLayout();
@@ -115,6 +116,7 @@
             // SalasanaOikeinPanel
             // 
             this.SalasanaOikeinPanel.BackColor = System.Drawing.Color.DarkRed;
+            this.SalasanaOikeinPanel.Controls.Add(this.naytaCB);
             this.SalasanaOikeinPanel.Controls.Add(this.label3);
             this.SalasanaOikeinPanel.Dock = System.Windows.Forms.DockStyle.Fill;
             this.SalasanaOikeinPanel.Font = new System.Drawing.Font("Segoe Script", 36F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
@@ -124,6 +126,18 @@
             this.SalasanaOikeinPanel.Size = new System.Drawing.Size(800, 450);
             this.SalasanaOikeinPanel.TabIndex = 1;
             this.SalasanaOikeinPanel.Visible = false;
+            // 
+            // naytaCB
+            // 
+            this.naytaCB.AutoSize = true;
+            this.naytaCB.Location = new System.Drawing.Point(257, 229);
+            this.naytaCB.Name = "naytaCB";
+            this.naytaCB.Size = new System.Drawing.Size(492, 103);
+            this.naytaCB.TabIndex = 1;
+            this.naytaCB.Text = "piilota/näytä";
+            this.naytaCB.UseVisualStyleBackColor = true;
+            this.naytaCB.Visible = false;
+            this.naytaCB.CheckedChanged += new System.EventHandler(this.naytaCB_CheckedChanged);
             // 
             // label3
             // 
@@ -162,5 +176,6 @@
         private Label VirheviestiLB;
         private Panel SalasanaOikeinPanel;
         private Label label3;
+        private CheckBox naytaCB;
     }
 }

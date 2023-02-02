@@ -1,0 +1,17 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\bin\Debug\net6.0-windows\Celcius_ to_Fahrenheit.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\bin\Debug\net6.0-windows\Celcius_ to_Fahrenheit.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\bin\Debug\net6.0-windows\Celcius_ to_Fahrenheit.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\bin\Debug\net6.0-windows\Celcius_ to_Fahrenheit.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\bin\Debug\net6.0-windows\Celcius_ to_Fahrenheit.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius__to_Fahrenheit.AsteMuunninForm.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\refint\Celcius_ to_Fahrenheit.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\Celcius_ to_Fahrenheit.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Celcius_ to_Fahrenheit\obj\Debug\net6.0-windows\ref\Celcius_ to_Fahrenheit.dll

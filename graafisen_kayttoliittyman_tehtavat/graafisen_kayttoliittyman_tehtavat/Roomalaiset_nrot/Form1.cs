@@ -34,8 +34,8 @@ namespace Roomalaiset_nrot
                     vastaus += "";
                 }
                 vastaus += sataset(luku2, vastaus); //Lähetetään mitä tuhansista tuli vastaus (M) ja lisätään vastaukseen mitä satasesta tuli (C)
-                vastaus += kympit(luku3, vastaus);
-                vastaus += ykkoset(luku4, vastaus);
+                vastaus += kympit(luku3, vastaus);//Lähetetään mitä kympeistä tuli vastaus (X) ja lisätään vastaukseen mitä kympeistä tuli (X)
+                vastaus += ykkoset(luku4, vastaus);//Lähetetään mitä ykkösistä tuli vastaus (I) ja lisätään vastaukseen mitä kympeistä tuli (I)
             }
             if(tekstiTB.Text.Length > 2)//Kyseessä on sataluku
             {
@@ -43,26 +43,27 @@ namespace Roomalaiset_nrot
                 luku3 = Convert.ToInt32(tekstiTB.Text.Substring(1, 1));//Sadat
                 luku4 = Convert.ToInt32(tekstiTB.Text.Substring(2, 1));//Kympit
                 vastaus += sataset(luku2, vastaus); //Lähetetään mitä tuhansista tuli vastaus (M) ja lisätään vastaukseen mitä satasesta tuli (C)
-                vastaus += kympit(luku3, vastaus);
-                vastaus += ykkoset(luku4, vastaus);
+                vastaus += kympit(luku3, vastaus);//Lähetetään mitä kympeistä tuli vastaus (X) ja lisätään vastaukseen mitä kympeistä tuli (X)
+                vastaus += ykkoset(luku4, vastaus);//Lähetetään mitä ykkösistä tuli vastaus (I) ja lisätään vastaukseen mitä kympeistä tuli (I)
             }
             if (tekstiTB.Text.Length > 1)//Kyseessä on kymmenluku
             {
                 luku3 = Convert.ToInt32(tekstiTB.Text.Substring(0, 1));//Tuhat
                 luku4 = Convert.ToInt32(tekstiTB.Text.Substring(2, 1));//Kympit
-                vastaus += kympit(luku3, vastaus);
-                vastaus += ykkoset(luku4, vastaus);
+                vastaus += kympit(luku3, vastaus);//Lähetetään mitä kympeistä tuli vastaus (X) ja lisätään vastaukseen mitä kympeistä tuli (X)
+                vastaus += ykkoset(luku4, vastaus);//Lähetetään mitä ykkösistä tuli vastaus (I) ja lisätään vastaukseen mitä kympeistä tuli (I)
             }
             if (tekstiTB.Text.Length > 0)//Kyseessä on ykkösluvut
             {
                 luku4 = Convert.ToInt32(tekstiTB.Text.Substring(0, 1));//ykkoset  
-                vastaus += ykkoset(luku4, vastaus);
+                vastaus += ykkoset(luku4, vastaus);//Lähetetään mitä ykkösistä tuli vastaus (I) ja lisätään vastaukseen mitä kympeistä tuli (I)
             }
-            vastausLB.Text = vastaus;
-            vastausLB.Visible = true;
+            vastausLB.Text = vastaus;//Tulostetaan vastaus
+            vastausLB.Visible = true;//Tuodaan piilotettu vastaus esille
         }
           private string sataset (int luku2, string vastaus)
           { 
+            //Tarkistetaan onko luku jaollinen tietyllä luvulla ja palautetaan
              if(luku2 % 9 == 0 && luku2 != 0)
              {
                 return "CM";//900
