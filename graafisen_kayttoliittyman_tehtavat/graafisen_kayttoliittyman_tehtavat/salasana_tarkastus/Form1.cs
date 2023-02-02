@@ -28,10 +28,5 @@ namespace salasana_tarkastus
                 VirheviestiLB.Visible = true;
             }
         }
-
-        private void naytaCB_CheckedChanged(object sender, EventArgs e)
-        {
-            
-        }
     }
 }
