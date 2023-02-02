@@ -1,0 +1,17 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI_laskuri.BMIForm.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\bin\Debug\net6.0-windows\BMI-laskuri.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\bin\Debug\net6.0-windows\BMI-laskuri.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\bin\Debug\net6.0-windows\BMI-laskuri.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\bin\Debug\net6.0-windows\BMI-laskuri.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\bin\Debug\net6.0-windows\BMI-laskuri.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\refint\BMI-laskuri.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\BMI-laskuri.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\BMI-laskuri\obj\Debug\net6.0-windows\ref\BMI-laskuri.dll
