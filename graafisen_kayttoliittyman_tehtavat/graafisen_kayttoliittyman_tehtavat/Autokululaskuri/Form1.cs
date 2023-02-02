@@ -34,7 +34,7 @@ namespace Autokululaskuri
             muut = Convert.ToDouble(muutKulutTB.Text);
 
             //Lasketaan kustannukset ja tulostetaan lomakkeelle esille
-            kustannukset = (laina + nesteet + vakuutusmaksut + pesut + huollot + renkaat + kilometrit + energia + muut) / (kilometrit / 12);//Lasketaan vuosikustannukset
+            kustannukset = (laina + nesteet + vakuutusmaksut + pesut + huollot + renkaat  + energia + muut) / (kilometrit / 12);//Lasketaan vuosikustannukset
             vastausLB.Text = "Kustannukset kilometriä kohden ovat: " + kustannukset;
             vastausLB.Visible = true;
 
