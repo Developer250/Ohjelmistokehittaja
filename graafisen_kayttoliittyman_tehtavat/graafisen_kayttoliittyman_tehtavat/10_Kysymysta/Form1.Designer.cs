@@ -1,6 +1,6 @@
 ﻿namespace _10_Kysymysta
 {
-    partial class vastauslomakeForm
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -30,11 +30,11 @@
         {
             this.kysymysLB = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.radioButton1 = new System.Windows.Forms.RadioButton();
-            this.vastausARB = new System.Windows.Forms.RadioButton();
-            this.vastausBRB = new System.Windows.Forms.RadioButton();
             this.vastausDRB = new System.Windows.Forms.RadioButton();
             this.vastausCRB = new System.Windows.Forms.RadioButton();
+            this.vastausBRB = new System.Windows.Forms.RadioButton();
+            this.vastausARB = new System.Windows.Forms.RadioButton();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.vastausLB = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
@@ -62,41 +62,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Vastaus";
             // 
-            // radioButton1
-            // 
-            this.radioButton1.AutoCheck = false;
-            this.radioButton1.AutoSize = true;
-            this.radioButton1.Location = new System.Drawing.Point(13, 50);
-            this.radioButton1.Name = "radioButton1";
-            this.radioButton1.Size = new System.Drawing.Size(43, 32);
-            this.radioButton1.TabIndex = 0;
-            this.radioButton1.TabStop = true;
-            this.radioButton1.Text = "E";
-            this.radioButton1.UseVisualStyleBackColor = true;
-            this.radioButton1.Visible = false;
-            // 
-            // vastausARB
-            // 
-            this.vastausARB.AutoSize = true;
-            this.vastausARB.Location = new System.Drawing.Point(6, 50);
-            this.vastausARB.Name = "vastausARB";
-            this.vastausARB.Size = new System.Drawing.Size(46, 32);
-            this.vastausARB.TabIndex = 1;
-            this.vastausARB.TabStop = true;
-            this.vastausARB.Text = "A";
-            this.vastausARB.UseVisualStyleBackColor = true;
-            // 
-            // vastausBRB
-            // 
-            this.vastausBRB.AutoSize = true;
-            this.vastausBRB.Location = new System.Drawing.Point(6, 88);
-            this.vastausBRB.Name = "vastausBRB";
-            this.vastausBRB.Size = new System.Drawing.Size(44, 32);
-            this.vastausBRB.TabIndex = 2;
-            this.vastausBRB.TabStop = true;
-            this.vastausBRB.Text = "B";
-            this.vastausBRB.UseVisualStyleBackColor = true;
-            // 
             // vastausDRB
             // 
             this.vastausDRB.AutoSize = true;
@@ -119,6 +84,41 @@
             this.vastausCRB.Text = "C";
             this.vastausCRB.UseVisualStyleBackColor = true;
             // 
+            // vastausBRB
+            // 
+            this.vastausBRB.AutoSize = true;
+            this.vastausBRB.Location = new System.Drawing.Point(6, 88);
+            this.vastausBRB.Name = "vastausBRB";
+            this.vastausBRB.Size = new System.Drawing.Size(44, 32);
+            this.vastausBRB.TabIndex = 2;
+            this.vastausBRB.TabStop = true;
+            this.vastausBRB.Text = "B";
+            this.vastausBRB.UseVisualStyleBackColor = true;
+            // 
+            // vastausARB
+            // 
+            this.vastausARB.AutoSize = true;
+            this.vastausARB.Location = new System.Drawing.Point(6, 50);
+            this.vastausARB.Name = "vastausARB";
+            this.vastausARB.Size = new System.Drawing.Size(46, 32);
+            this.vastausARB.TabIndex = 1;
+            this.vastausARB.TabStop = true;
+            this.vastausARB.Text = "A";
+            this.vastausARB.UseVisualStyleBackColor = true;
+            // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoCheck = false;
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(13, 50);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(43, 32);
+            this.radioButton1.TabIndex = 0;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "E";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            this.radioButton1.Visible = false;
+            // 
             // vastausLB
             // 
             this.vastausLB.AutoSize = true;
@@ -129,7 +129,7 @@
             this.vastausLB.Text = "Vastaus";
             this.vastausLB.Visible = false;
             // 
-            // vastauslomakeForm
+            // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 28F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -138,8 +138,8 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.kysymysLB);
             this.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
-            this.Name = "vastauslomakeForm";
+            this.Margin = new System.Windows.Forms.Padding(4);
+            this.Name = "Form1";
             this.Text = "Vastauslomake";
             this.Load += new System.EventHandler(this.vastauslomakeForm_Load);
             this.groupBox1.ResumeLayout(false);

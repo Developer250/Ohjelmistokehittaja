@@ -1,5 +1,4 @@
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\10_Kysymysta.csproj.AssemblyReference.cache
-C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\_10_Kysymysta.vastauslomakeForm.resources
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\10_Kysymysta.csproj.GenerateResource.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\10_Kysymysta.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\10_Kysymysta.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehta
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\10_Kysymysta.pdb
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\10_Kysymysta.genruntimeconfig.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\ref\10_Kysymysta.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\10_Kysymysta\obj\Debug\net6.0-windows\_10_Kysymysta.Form1.resources
