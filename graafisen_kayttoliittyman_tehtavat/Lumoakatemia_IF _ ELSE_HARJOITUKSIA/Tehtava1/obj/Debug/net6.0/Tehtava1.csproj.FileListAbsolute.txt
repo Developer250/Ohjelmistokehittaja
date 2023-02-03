@@ -1,0 +1,15 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\bin\Debug\net6.0\Tehtava1.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\bin\Debug\net6.0\Tehtava1.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\bin\Debug\net6.0\Tehtava1.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\bin\Debug\net6.0\Tehtava1.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\bin\Debug\net6.0\Tehtava1.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\refint\Tehtava1.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\Tehtava1.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\Lumoakatemia_IF _ ELSE_HARJOITUKSIA\Tehtava1\obj\Debug\net6.0\ref\Tehtava1.dll
