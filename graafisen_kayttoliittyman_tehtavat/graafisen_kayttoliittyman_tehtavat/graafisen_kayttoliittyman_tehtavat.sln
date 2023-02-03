@@ -29,7 +29,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Celcius_ to_Fahrenheit", "C
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BMI-laskuri", "BMI-laskuri\BMI-laskuri.csproj", "{7E893486-ED15-4654-9320-AB11B57956E4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NopanHeitto", "NopanHeitto\NopanHeitto.csproj", "{740AF3EF-84AC-4CAF-88F3-9B6A7E47D4E5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopanHeitto", "NopanHeitto\NopanHeitto.csproj", "{740AF3EF-84AC-4CAF-88F3-9B6A7E47D4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "10_Kysymysta", "10_Kysymysta\10_Kysymysta.csproj", "{B737D82F-72B7-43BC-9B92-1D435A2467FE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +95,10 @@ Global
 		{740AF3EF-84AC-4CAF-88F3-9B6A7E47D4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{740AF3EF-84AC-4CAF-88F3-9B6A7E47D4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{740AF3EF-84AC-4CAF-88F3-9B6A7E47D4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B737D82F-72B7-43BC-9B92-1D435A2467FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B737D82F-72B7-43BC-9B92-1D435A2467FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B737D82F-72B7-43BC-9B92-1D435A2467FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B737D82F-72B7-43BC-9B92-1D435A2467FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
