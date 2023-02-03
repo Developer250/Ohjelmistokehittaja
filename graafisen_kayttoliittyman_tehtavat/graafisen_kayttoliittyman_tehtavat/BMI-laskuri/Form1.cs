@@ -17,17 +17,17 @@ namespace BMI_laskuri
             if(BMI < 18.5)//Tarkistetaan painoindeksi
             {
                 vastausLB.Text = "Painoindeksisi on " + BMI;//Vastaukseen sijoitetaan teksti ja itse painoindeksi
-                vastausLB.ForeColor = Color.Blue;//Vastaus tekstin väri vesi
+                vastausLB.ForeColor = Color.MediumSlateBlue;//Vastaus tekstin väri vesi
                 kuvainnollinenLB.Text = "Alipaino";//Kuvaus labeliin teksti
-                kuvainnollinenLB.ForeColor = Color.Blue;//Kuvaus labelin tekstin väri
+                kuvainnollinenLB.ForeColor = Color.MediumSlateBlue;//Kuvaus labelin tekstin väri
                 kuvainnollinenLB.Visible = true;//Tulostetaan näkyviin
             }
             else if(BMI < 25)
             {
                 vastausLB.Text = "Painoindeksisi on: " + BMI;//Vastaukseen sijoitetaan teksti ja itse painoindeksi
-                vastausLB.ForeColor = Color.Green;//Vastaus tekstin väri vesi
+                vastausLB.ForeColor = Color.MediumSpringGreen;//Vastaus tekstin väri vesi
                 kuvainnollinenLB.Text = "Normaalipaino";//Kuvaus labeliin teksti
-                kuvainnollinenLB.ForeColor = Color.Green;//Kuvaus labelin tekstin väri
+                kuvainnollinenLB.ForeColor = Color.MediumSpringGreen;//Kuvaus labelin tekstin väri
                 vastausLB.Visible = true;
                 kuvainnollinenLB.Visible = true;//Tulostetaan näkyviin
             }
@@ -43,9 +43,9 @@ namespace BMI_laskuri
             else
             {
                 vastausLB.Text = "Painoindeksisi on: " + BMI;//Vastaukseen sijoitetaan teksti ja itse painoindeksi
-                vastausLB.ForeColor = Color.Red;//Vastaus tekstin väri vesi
+                vastausLB.ForeColor = Color.MediumVioletRed;//Vastaus tekstin väri vesi
                 kuvainnollinenLB.Text = "Huomattavasti ylipaino";//Kuvaus labeliin teksti
-                kuvainnollinenLB.ForeColor = Color.Red;//Kuvaus labelin tekstin väri
+                kuvainnollinenLB.ForeColor = Color.MediumVioletRed;//Kuvaus labelin tekstin väri
                 vastausLB.Visible = true;
                 kuvainnollinenLB.Visible = true;//Tulostetaan näkyviin
             }
