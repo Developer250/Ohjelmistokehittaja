@@ -1,6 +1,6 @@
 ﻿namespace Paivakirja
 {
-    partial class paivakirjaForm
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -28,17 +28,17 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.syottoTB = new System.Windows.Forms.TextBox();
+            this.SyottoTB = new System.Windows.Forms.TextBox();
             this.tallennaBT = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // syottoTB
+            // SyottoTB
             // 
-            this.syottoTB.Location = new System.Drawing.Point(48, 36);
-            this.syottoTB.Multiline = true;
-            this.syottoTB.Name = "syottoTB";
-            this.syottoTB.Size = new System.Drawing.Size(1270, 702);
-            this.syottoTB.TabIndex = 0;
+            this.SyottoTB.Location = new System.Drawing.Point(48, 36);
+            this.SyottoTB.Multiline = true;
+            this.SyottoTB.Name = "SyottoTB";
+            this.SyottoTB.Size = new System.Drawing.Size(1270, 702);
+            this.SyottoTB.TabIndex = 0;
             // 
             // tallennaBT
             // 
@@ -51,15 +51,15 @@
             this.tallennaBT.UseVisualStyleBackColor = false;
             this.tallennaBT.Click += new System.EventHandler(this.tallennaBT_Click);
             // 
-            // paivakirjaForm
+            // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1515, 833);
             this.Controls.Add(this.tallennaBT);
-            this.Controls.Add(this.syottoTB);
+            this.Controls.Add(this.SyottoTB);
             this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "paivakirjaForm";
+            this.Name = "Form1";
             this.Text = "Päiväkirja";
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -68,7 +68,7 @@
 
         #endregion
 
-        private TextBox syottoTB;
+        private TextBox SyottoTB;
         private Button tallennaBT;
     }
 }
