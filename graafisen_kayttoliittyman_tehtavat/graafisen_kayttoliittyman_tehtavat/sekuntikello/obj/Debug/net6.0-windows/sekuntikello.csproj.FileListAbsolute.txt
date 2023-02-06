@@ -1,0 +1,17 @@
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\bin\Debug\net6.0-windows\sekuntikello.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\bin\Debug\net6.0-windows\sekuntikello.deps.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\bin\Debug\net6.0-windows\sekuntikello.runtimeconfig.json
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\bin\Debug\net6.0-windows\sekuntikello.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\bin\Debug\net6.0-windows\sekuntikello.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.sekkariForm.resources
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.csproj.GenerateResource.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.AssemblyInfoInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.AssemblyInfo.cs
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.csproj.CoreCompileInputs.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\refint\sekuntikello.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\sekuntikello.genruntimeconfig.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\sekuntikello\obj\Debug\net6.0-windows\ref\sekuntikello.dll

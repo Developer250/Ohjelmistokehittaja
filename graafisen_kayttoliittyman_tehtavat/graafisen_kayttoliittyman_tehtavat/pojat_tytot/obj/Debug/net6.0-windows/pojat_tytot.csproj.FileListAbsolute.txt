@@ -4,7 +4,6 @@ C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehta
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\bin\Debug\net6.0-windows\pojat_tytot.dll
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\bin\Debug\net6.0-windows\pojat_tytot.pdb
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.csproj.AssemblyReference.cache
-C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.suosikkiForm.resources
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.csproj.GenerateResource.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehta
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.pdb
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.genruntimeconfig.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\ref\pojat_tytot.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\pojat_tytot\obj\Debug\net6.0-windows\pojat_tytot.Form1.resources

@@ -2,9 +2,9 @@ using System.IO;
 
 namespace pojat_tytot
 {
-    public partial class suosikkiForm : Form
+    public partial class Form1 : Form
     {
-        public suosikkiForm()
+        public Form1()
         {
             InitializeComponent();
         }
@@ -18,7 +18,7 @@ namespace pojat_tytot
         {
             vastausLB.Text = "";//Tyhjennet‰‰n vastaus joka kerta
             vastausLB.Visible = false;
-            string [] pojat = File.ReadAllLines("C:\\Users\\janikekalainen\\source\\repos\\Ohjelmistokehittaja2\\graafisen_kayttoliittyman_tehtavat\\pojat_tytot\\pojat.txt");
+            string [] pojat = File.ReadAllLines("C:\\Users\\janikekalainen\\source\\repos\\Ohjelmistokehittaja2\\graafisen_kayttoliittyman_tehtavat\\graafisen_kayttoliittyman_tehtavat\\pojat_tytot\\pojat.txt");
             string[] tytot = File.ReadAllLines("C:\\Users\\janikekalainen\\source\\repos\\Ohjelmistokehittaja2\\graafisen_kayttoliittyman_tehtavat\\graafisen_kayttoliittyman_tehtavat\\pojat_tytot\tytot.txt");
             string nimi = nimiTB.Text;
             int laskurip = 1; int laskurit = 1;

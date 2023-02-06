@@ -35,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Kysymysta", "10_Kysymyst
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pojat_tytot", "pojat_tytot\pojat_tytot.csproj", "{06B79C14-5FE9-48C2-8774-34E2B6936813}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paivakirja", "Paivakirja\Paivakirja.csproj", "{217F350D-2D42-4641-8832-D32D4E03A816}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paivakirja", "Paivakirja\Paivakirja.csproj", "{217F350D-2D42-4641-8832-D32D4E03A816}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sekuntikello", "sekuntikello\sekuntikello.csproj", "{77552844-41CC-4292-85A4-5DE22D6E416C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -111,6 +113,10 @@ Global
 		{217F350D-2D42-4641-8832-D32D4E03A816}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{217F350D-2D42-4641-8832-D32D4E03A816}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{217F350D-2D42-4641-8832-D32D4E03A816}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77552844-41CC-4292-85A4-5DE22D6E416C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77552844-41CC-4292-85A4-5DE22D6E416C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77552844-41CC-4292-85A4-5DE22D6E416C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77552844-41CC-4292-85A4-5DE22D6E416C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

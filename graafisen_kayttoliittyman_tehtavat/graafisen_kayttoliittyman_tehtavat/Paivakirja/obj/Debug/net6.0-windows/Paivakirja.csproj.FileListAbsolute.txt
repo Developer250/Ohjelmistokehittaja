@@ -4,7 +4,6 @@ C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehta
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\bin\Debug\net6.0-windows\Paivakirja.dll
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\bin\Debug\net6.0-windows\Paivakirja.pdb
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.csproj.AssemblyReference.cache
-C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.Form1.resources
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.csproj.GenerateResource.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.AssemblyInfoInputs.cache
@@ -15,3 +14,4 @@ C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehta
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.pdb
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.genruntimeconfig.cache
 C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\ref\Paivakirja.dll
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\graafisen_kayttoliittyman_tehtavat\graafisen_kayttoliittyman_tehtavat\Paivakirja\obj\Debug\net6.0-windows\Paivakirja.paivakirjaForm.resources

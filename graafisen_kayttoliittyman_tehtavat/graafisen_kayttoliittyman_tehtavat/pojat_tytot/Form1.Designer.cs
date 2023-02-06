@@ -1,6 +1,6 @@
 ﻿namespace pojat_tytot
 {
-    partial class suosikkiForm
+    partial class Form1
     {
         /// <summary>
         ///  Required designer variable.
@@ -72,7 +72,7 @@
             this.vastausLB.Text = "Vastaus";
             this.vastausLB.Visible = false;
             // 
-            // suosikkiForm
+            // Form1
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(996, 324);
@@ -81,7 +81,7 @@
             this.Controls.Add(this.nimiTB);
             this.Controls.Add(this.label1);
             this.Font = new System.Drawing.Font("Segoe UI", 16.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.Name = "suosikkiForm";
+            this.Name = "Form1";
             this.Text = "Onko nimesi suosittujen joukossa?";
             this.ResumeLayout(false);
             this.PerformLayout();

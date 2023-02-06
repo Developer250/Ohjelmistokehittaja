@@ -1,3 +1,4 @@
+
 namespace pojat_tytot
 {
     internal static class Program
@@ -11,7 +12,7 @@ namespace pojat_tytot
             // To customize application configuration such as set high DPI settings or default font,
             // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
-            Application.Run(new suosikkiForm());
+            Application.Run(new Form1());
         }
     }
 }
