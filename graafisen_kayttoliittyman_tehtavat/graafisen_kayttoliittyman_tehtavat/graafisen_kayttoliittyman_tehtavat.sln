@@ -33,7 +33,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NopanHeitto", "NopanHeitto\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Kysymysta", "10_Kysymysta\10_Kysymysta.csproj", "{B737D82F-72B7-43BC-9B92-1D435A2467FE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "pojat_tytot", "pojat_tytot\pojat_tytot.csproj", "{06B79C14-5FE9-48C2-8774-34E2B6936813}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pojat_tytot", "pojat_tytot\pojat_tytot.csproj", "{06B79C14-5FE9-48C2-8774-34E2B6936813}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Paivakirja", "Paivakirja\Paivakirja.csproj", "{217F350D-2D42-4641-8832-D32D4E03A816}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -105,6 +107,10 @@ Global
 		{06B79C14-5FE9-48C2-8774-34E2B6936813}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{06B79C14-5FE9-48C2-8774-34E2B6936813}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{06B79C14-5FE9-48C2-8774-34E2B6936813}.Release|Any CPU.Build.0 = Release|Any CPU
+		{217F350D-2D42-4641-8832-D32D4E03A816}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{217F350D-2D42-4641-8832-D32D4E03A816}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{217F350D-2D42-4641-8832-D32D4E03A816}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{217F350D-2D42-4641-8832-D32D4E03A816}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
