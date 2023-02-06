@@ -1,6 +1,6 @@
 ﻿namespace Paivakirja
 {
-    partial class Form1
+    partial class paivakirjaForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -49,9 +49,9 @@
             this.tallennaBT.TabIndex = 1;
             this.tallennaBT.Text = "Tallenna päiväkirjaan";
             this.tallennaBT.UseVisualStyleBackColor = false;
-            this.tallennaBT.Click += new System.EventHandler(this.tallennaBT_Click);
+            this.tallennaBT.Click += new System.EventHandler(this.TallennaBT_Click);
             // 
-            // Form1
+            // paivakirjaForm
             // 
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.None;
             this.ClientSize = new System.Drawing.Size(1515, 833);
@@ -59,7 +59,7 @@
             this.Controls.Add(this.SyottoTB);
             this.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.Margin = new System.Windows.Forms.Padding(6);
-            this.Name = "Form1";
+            this.Name = "paivakirjaForm";
             this.Text = "Päiväkirja";
             this.ResumeLayout(false);
             this.PerformLayout();
