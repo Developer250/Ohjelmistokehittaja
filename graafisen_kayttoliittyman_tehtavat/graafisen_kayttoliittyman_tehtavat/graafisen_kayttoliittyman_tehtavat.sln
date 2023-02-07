@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "pojat_tytot", "pojat_tytot\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Paivakirja", "Paivakirja\Paivakirja.csproj", "{217F350D-2D42-4641-8832-D32D4E03A816}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "sekuntikello", "sekuntikello\sekuntikello.csproj", "{77552844-41CC-4292-85A4-5DE22D6E416C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "sekuntikello", "sekuntikello\sekuntikello.csproj", "{77552844-41CC-4292-85A4-5DE22D6E416C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ajastin", "Ajastin\Ajastin.csproj", "{C0EC5948-9762-4457-B038-4384D08DFC53}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -117,6 +119,10 @@ Global
 		{77552844-41CC-4292-85A4-5DE22D6E416C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77552844-41CC-4292-85A4-5DE22D6E416C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77552844-41CC-4292-85A4-5DE22D6E416C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0EC5948-9762-4457-B038-4384D08DFC53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0EC5948-9762-4457-B038-4384D08DFC53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0EC5948-9762-4457-B038-4384D08DFC53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0EC5948-9762-4457-B038-4384D08DFC53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
