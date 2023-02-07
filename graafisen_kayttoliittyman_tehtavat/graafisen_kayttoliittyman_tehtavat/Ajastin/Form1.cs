@@ -47,14 +47,14 @@ namespace Ajastin
             if(kokonaisaika > 0)
             {
                 kokonaisaika--;
-                int minuutit = kokonaisaika / 60;
-                int sekunnit = kokonaisaika - (minuutit * 60);
-                aikaLB.Text = minuutit.ToString() + ":"  + sekunnit.ToString();
+                int minuutit = kokonaisaika / 60;//Lasketaan uudelleen minuutit
+                int sekunnit = kokonaisaika - (minuutit * 60);//Lasketaan uudelleen sekunnit
+                aikaLB.Text = minuutit.ToString() + ":"  + sekunnit.ToString();//N‰ytet‰‰n ajastin-labelissa minuutit ja sekunnit
             }
             else
             {
-                AjastinTM.Stop();
-                MessageBox.Show("Aikasi loppui!");
+                AjastinTM.Stop();//Pys‰ytet‰‰n ajastin
+                MessageBox.Show("Aikasi loppui!");//Tulostetaan esille teksti
             }
         }
     }
