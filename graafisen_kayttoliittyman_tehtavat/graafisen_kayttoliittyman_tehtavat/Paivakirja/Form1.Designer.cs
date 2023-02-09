@@ -39,7 +39,7 @@
             this.SyottoTB.Name = "SyottoTB";
             this.SyottoTB.Size = new System.Drawing.Size(1270, 702);
             this.SyottoTB.TabIndex = 0;
-            this.SyottoTB.TextChanged += new System.EventHandler(this.SyottoTB_TextChanged);
+           
             // 
             // tallennaBT
             // 

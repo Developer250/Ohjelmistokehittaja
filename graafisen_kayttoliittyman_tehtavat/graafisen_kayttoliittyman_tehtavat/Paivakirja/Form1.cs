@@ -1,3 +1,4 @@
+using System;
 using System.IO;
 namespace Paivakirja
 {
@@ -16,10 +17,6 @@ namespace Paivakirja
             {
                 MessageBox.Show("Tiedostoa ei lˆytynyt: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Tapahtui error lukiessa tiedostoa: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
-            }
         }
 
         private void TallennaBT_Click(object sender, EventArgs e)
@@ -30,7 +27,7 @@ namespace Paivakirja
             try
             {
                 TextWriter text = new StreamWriter("C:\\temp\\paivakirja.txt");//Luodaan polku
-                text.Write(teksti + "\r");//Pystyt‰‰n kirjoittamaan t‰ll‰ metodilla teksti‰ p‰iv‰kirjaan ja tehd‰‰n rivinvaihto
+                text.Write(teksti);//Pystyt‰‰n kirjoittamaan t‰ll‰ metodilla teksti‰ p‰iv‰kirjaan
                 text.Close();//Suljetaan p‰iv‰kirja
             }
             catch (Exception ex)
