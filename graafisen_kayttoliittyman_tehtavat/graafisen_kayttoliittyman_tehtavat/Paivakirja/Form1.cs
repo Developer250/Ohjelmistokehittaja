@@ -15,7 +15,7 @@ namespace Paivakirja
             }
             catch (FileNotFoundException ex)
             {
-                MessageBox.Show("Tiedostoa ei löytynyt: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Tiedostoa ei löytynyt: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);//Virhe viesti
             }
         }
 
@@ -32,7 +32,7 @@ namespace Paivakirja
             }
             catch (Exception ex)
             {
-                MessageBox.Show("Error kirjoittaessa tiedostoa: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("Error kirjoittaessa tiedostoa: " + ex.Message, "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);//Virhe viesti
             }
             Application.Exit();//Poistutaans ovelluksesta
         }
