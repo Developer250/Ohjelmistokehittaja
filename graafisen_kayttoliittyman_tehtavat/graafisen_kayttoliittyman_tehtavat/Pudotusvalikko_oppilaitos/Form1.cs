@@ -4,8 +4,8 @@ namespace Pudotusvalikko_oppilaitos
 {
     public partial class avainhenkilotForm : Form
     {
-        DataTable oppilaitos = new DataTable();
-        DataTable vastuuHenkilot = new DataTable();
+        DataTable oppilaitos = new DataTable();//Luodaan uusi tietotaulu
+        DataTable vastuuHenkilot = new DataTable();//Luodaan uusi tietotaulu
         DataTable yhteys = new DataTable();// Luodaan yhteys oppilaitoksen ja vastuuhenkilön tietojen välille
         public avainhenkilotForm()
         {
