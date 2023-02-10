@@ -14,13 +14,14 @@ namespace Pudotusvalikko_oppilaitos
 
         private void oppilaitosCB_SelectedIndexChanged(object sender, EventArgs e)
         {
+            ////Comboboksien alle valitun indeksin tiedot eli rakenne
             string viite = oppilaitos.Rows[oppilaitosCB.SelectedIndex]["OID"].ToString();
             osoiteLB.Text = oppilaitos.Rows[oppilaitosCB.SelectedIndex]["OKatuosoite"].ToString();
             postinumeroLB.Text = oppilaitos.Rows[oppilaitosCB.SelectedIndex]["OPostinumero"].ToString();
             postitoimipaikkaLB.Text = oppilaitos.Rows[oppilaitosCB.SelectedIndex]["OPostitoimipaikka"].ToString();
             puhelinLB.Text = oppilaitos.Rows[oppilaitosCB.SelectedIndex]["OPuhelin"].ToString();
 
-            yhteys = vastuuHenkilot.Select("OID =" + viite).CopyToDataTable();
+            yhteys = vastuuHenkilot.Select("OID =" + viite).CopyToDataTable();//Määritetään valitun oppilaitoksen edustajat kopioidaan yhteys tauluun
 
             vastuuhenkiloCB.DataSource = yhteys;
             vastuuhenkiloCB.DisplayMember = "VNimi";
@@ -28,6 +29,8 @@ namespace Pudotusvalikko_oppilaitos
 
         private void avainhenkilotForm_Load(object sender, EventArgs e)
         {
+            //Alustetaan molemmat taulukot, eli täytetään ne tiedoilla 
+            //Ja oppilaitokset combobox sisällytetään oppilaitokset taulukon sisällöllä ja tiedoksi laitetaan oppilaitoksen nimi
             taytaOppilaitosTaulukko();
             taytaVastuuhenkilotTaulukko();
             oppilaitosCB.DataSource = oppilaitos;
@@ -36,12 +39,13 @@ namespace Pudotusvalikko_oppilaitos
 
         private void taytaOppilaitosTaulukko()
         {
-            oppilaitos.Columns.Add("OID", typeof(int)); //Rakenne
-            oppilaitos.Columns.Add("ONimi"); //Rakenne
-            oppilaitos.Columns.Add("OKatuosoite"); //Rakenne
-            oppilaitos.Columns.Add("OPostinumero"); //Rakenne
-            oppilaitos.Columns.Add("OPostitoimipaikka"); //Rakenne
-            oppilaitos.Columns.Add("OPuhelin"); //Rakenne
+            //Oppilaitos taulukko ja sen sisältö
+            oppilaitos.Columns.Add("OID", typeof(int)); //Rakenne ja sidotaan kyseiseen oppilaitokseen
+            oppilaitos.Columns.Add("ONimi"); 
+            oppilaitos.Columns.Add("OKatuosoite"); 
+            oppilaitos.Columns.Add("OPostinumero"); 
+            oppilaitos.Columns.Add("OPostitoimipaikka");
+            oppilaitos.Columns.Add("OPuhelin"); 
 
             oppilaitos.Rows.Add(1, "StadinAO", "Hattulantie 2", "00550", "Helsinki", "09 310 8600");
             oppilaitos.Rows.Add(2, "Omnia", "Armas Launiksen katu 9", "02650", "Espoo", "046 877 1371");
@@ -51,12 +55,13 @@ namespace Pudotusvalikko_oppilaitos
 
         private void taytaVastuuhenkilotTaulukko()
         {
+           //Vastuuhenkilöt taulukko ja sen sisältö
             vastuuHenkilot.Columns.Add("OID", typeof(int)); //Rakenne ja sidotaan kyseiseen oppilaitokseen
-            vastuuHenkilot.Columns.Add("VNimi"); //Rakenne
-            vastuuHenkilot.Columns.Add("VTitteli"); //Rakenne
-            vastuuHenkilot.Columns.Add("VOsasto"); //Rakenne
-            vastuuHenkilot.Columns.Add("VSähköposti"); //Rakenne
-            vastuuHenkilot.Columns.Add("VPuhelin"); //Rakenne
+            vastuuHenkilot.Columns.Add("VNimi");
+            vastuuHenkilot.Columns.Add("VTitteli"); 
+            vastuuHenkilot.Columns.Add("VOsasto"); 
+            vastuuHenkilot.Columns.Add("VSähköposti"); 
+            vastuuHenkilot.Columns.Add("VPuhelin");
 
             vastuuHenkilot.Rows.Add(1, "Sirpa Lindroos", "Rehtori", "Kampus 1", "sirpa.lindroos@hel.fi", "050 540 4434");
             vastuuHenkilot.Rows.Add(1, "Hanna Laurila", "Rehtori", "Kaupus 2", "hanna.laurila@hel.fi", "040 676 5583");
@@ -82,7 +87,8 @@ namespace Pudotusvalikko_oppilaitos
 
         private void vastuuhenkiloCB_SelectedIndexChanged(object sender, EventArgs e)
         {
-           titteliLB.Text = yhteys.Rows[vastuuhenkiloCB.SelectedIndex]["VTitteli"].ToString();
+            //Comboboksien alle valitun indeksin tiedot eli rakenne
+            titteliLB.Text = yhteys.Rows[vastuuhenkiloCB.SelectedIndex]["VTitteli"].ToString();
            osastoLB.Text = yhteys.Rows[vastuuhenkiloCB.SelectedIndex]["VOsasto"].ToString();
            sahkopostiLB.Text = yhteys.Rows[vastuuhenkiloCB.SelectedIndex]["VSähköposti"].ToString();
            puheLB.Text = yhteys.Rows[vastuuhenkiloCB.SelectedIndex]["VPuhelin"].ToString();
