@@ -86,7 +86,7 @@
             this.vasenPL.Dock = System.Windows.Forms.DockStyle.Left;
             this.vasenPL.Location = new System.Drawing.Point(0, 0);
             this.vasenPL.Name = "vasenPL";
-            this.vasenPL.Size = new System.Drawing.Size(135, 305);
+            this.vasenPL.Size = new System.Drawing.Size(135, 310);
             this.vasenPL.TabIndex = 0;
             // 
             // ylaPL
@@ -98,39 +98,39 @@
             this.ylaPL.Font = new System.Drawing.Font("MV Boli", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.ylaPL.Location = new System.Drawing.Point(135, 0);
             this.ylaPL.Name = "ylaPL";
-            this.ylaPL.Size = new System.Drawing.Size(831, 40);
+            this.ylaPL.Size = new System.Drawing.Size(631, 45);
             this.ylaPL.TabIndex = 1;
             // 
             // meistaPL
             // 
             this.meistaPL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.meistaPL.Location = new System.Drawing.Point(135, 40);
+            this.meistaPL.Location = new System.Drawing.Point(135, 45);
             this.meistaPL.Name = "meistaPL";
-            this.meistaPL.Size = new System.Drawing.Size(831, 265);
+            this.meistaPL.Size = new System.Drawing.Size(631, 265);
             this.meistaPL.TabIndex = 2;
             // 
             // ruoatPL
             // 
             this.ruoatPL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.ruoatPL.Location = new System.Drawing.Point(135, 40);
+            this.ruoatPL.Location = new System.Drawing.Point(135, 45);
             this.ruoatPL.Name = "ruoatPL";
-            this.ruoatPL.Size = new System.Drawing.Size(831, 265);
+            this.ruoatPL.Size = new System.Drawing.Size(631, 265);
             this.ruoatPL.TabIndex = 3;
             // 
             // juomatPL
             // 
             this.juomatPL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.juomatPL.Location = new System.Drawing.Point(135, 40);
+            this.juomatPL.Location = new System.Drawing.Point(135, 45);
             this.juomatPL.Name = "juomatPL";
-            this.juomatPL.Size = new System.Drawing.Size(831, 265);
+            this.juomatPL.Size = new System.Drawing.Size(631, 265);
             this.juomatPL.TabIndex = 4;
             // 
             // herkutPL
             // 
             this.herkutPL.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.herkutPL.Location = new System.Drawing.Point(135, 40);
+            this.herkutPL.Location = new System.Drawing.Point(135, 45);
             this.herkutPL.Name = "herkutPL";
-            this.herkutPL.Size = new System.Drawing.Size(831, 265);
+            this.herkutPL.Size = new System.Drawing.Size(631, 265);
             this.herkutPL.TabIndex = 5;
             // 
             // ruoatBT
@@ -341,6 +341,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(0, 0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(563, 52);
@@ -362,7 +363,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(13F, 31F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(228)))), ((int)(((byte)(228)))), ((int)(((byte)(228)))));
-            this.ClientSize = new System.Drawing.Size(966, 305);
+            this.ClientSize = new System.Drawing.Size(766, 310);
             this.Controls.Add(this.herkutPL);
             this.Controls.Add(this.juomatPL);
             this.Controls.Add(this.ruoatPL);
