@@ -137,6 +137,7 @@
             // 
             this.ruoatBT.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("ruoatBT.BackgroundImage")));
             this.ruoatBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.ruoatBT.FlatAppearance.BorderSize = 0;
             this.ruoatBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ruoatBT.ForeColor = System.Drawing.Color.White;
             this.ruoatBT.Location = new System.Drawing.Point(19, 108);
@@ -168,6 +169,7 @@
             // 
             this.herkutBT.BackgroundImage = global::Kahvio.Properties.Resources.info;
             this.herkutBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.herkutBT.FlatAppearance.BorderSize = 0;
             this.herkutBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.herkutBT.ForeColor = System.Drawing.Color.White;
             this.herkutBT.Location = new System.Drawing.Point(19, 204);
@@ -265,6 +267,7 @@
             // 
             this.juomatBT.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("juomatBT.BackgroundImage")));
             this.juomatBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.juomatBT.FlatAppearance.BorderSize = 0;
             this.juomatBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.juomatBT.ForeColor = System.Drawing.Color.White;
             this.juomatBT.Location = new System.Drawing.Point(19, 157);
@@ -296,6 +299,7 @@
             // 
             this.meistaBT.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("meistaBT.BackgroundImage")));
             this.meistaBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.meistaBT.FlatAppearance.BorderSize = 0;
             this.meistaBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.meistaBT.ForeColor = System.Drawing.Color.White;
             this.meistaBT.Location = new System.Drawing.Point(19, 63);
@@ -310,6 +314,7 @@
             // 
             this.koriBT.BackgroundImage = global::Kahvio.Properties.Resources.info;
             this.koriBT.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.koriBT.FlatAppearance.BorderSize = 0;
             this.koriBT.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.koriBT.ForeColor = System.Drawing.Color.White;
             this.koriBT.Location = new System.Drawing.Point(19, 252);
