@@ -30,5 +30,10 @@ namespace Celcius__to_Fahrenheit
                 vastausLB.Visible = true;
             }
         }
+
+        private void asteetTB_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

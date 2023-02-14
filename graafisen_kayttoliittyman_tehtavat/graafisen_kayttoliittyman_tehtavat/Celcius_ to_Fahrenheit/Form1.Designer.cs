@@ -88,6 +88,7 @@
             this.asteetTB.Name = "asteetTB";
             this.asteetTB.Size = new System.Drawing.Size(130, 38);
             this.asteetTB.TabIndex = 2;
+            this.asteetTB.TextChanged += new System.EventHandler(this.asteetTB_TextChanged);
             // 
             // muunnaBT
             // 
