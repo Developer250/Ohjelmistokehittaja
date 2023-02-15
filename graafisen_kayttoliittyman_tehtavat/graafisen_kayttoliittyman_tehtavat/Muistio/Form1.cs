@@ -184,7 +184,7 @@ namespace Muistio
             {
               using StreamWriter vk = new StreamWriter(tiedostoPolku))
                {
-                    vk.WriteLineAsync(rikasTB.Rtf();
+                    vk.WriteLineAsync(rikasTB.Rtf);
                }
             }
         }
