@@ -45,7 +45,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pudotusvalikko_oppilaitos",
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Kahvio", "Kahvio\Kahvio.csproj", "{A61C1136-73C2-4C22-9DF1-F92DE475BA10}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Muistio", "Muistio\Muistio.csproj", "{5CC98AB8-EDD4-40AB-98F9-40AF4989FA6B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Muistio", "Muistio\Muistio.csproj", "{5CC98AB8-EDD4-40AB-98F9-40AF4989FA6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Oppilashallintajärjestelmä", "Oppilashallintajärjestelmä\Oppilashallintajärjestelmä.csproj", "{64C3E637-D485-4551-9337-7289F4794F67}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +143,10 @@ Global
 		{5CC98AB8-EDD4-40AB-98F9-40AF4989FA6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5CC98AB8-EDD4-40AB-98F9-40AF4989FA6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5CC98AB8-EDD4-40AB-98F9-40AF4989FA6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64C3E637-D485-4551-9337-7289F4794F67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64C3E637-D485-4551-9337-7289F4794F67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64C3E637-D485-4551-9337-7289F4794F67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64C3E637-D485-4551-9337-7289F4794F67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
