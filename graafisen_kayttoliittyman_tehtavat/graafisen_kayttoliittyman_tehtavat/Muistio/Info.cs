@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Muistio
 {
-    public partial class tietoaForm : Form
+    public partial class Info : Form
     {
-        public tietoaForm()
+        public Info()
         {
             InitializeComponent();
-        }
-
-        private void tietoaForm_Load(object sender, EventArgs e)
-        {
-            tietoa tietoa = new tietoa();
-            tietoa.ShowDialog();
         }
     }
 }

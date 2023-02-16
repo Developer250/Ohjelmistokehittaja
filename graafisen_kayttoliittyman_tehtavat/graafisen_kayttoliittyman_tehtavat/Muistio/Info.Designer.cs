@@ -1,6 +1,6 @@
 ﻿namespace Muistio
 {
-    partial class tietoaForm
+    partial class Info
     {
         /// <summary>
         /// Required designer variable.
@@ -34,22 +34,21 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Splash", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(108, 31);
+            this.label1.Font = new System.Drawing.Font("Splash", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label1.Location = new System.Drawing.Point(94, 46);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(467, 31);
+            this.label1.Size = new System.Drawing.Size(314, 21);
             this.label1.TabIndex = 0;
-            this.label1.Text = "Made By Jani Kekäläinen";
+            this.label1.Text = "Made By Jani Kekäläienn";
             // 
-            // tietoaForm
+            // Info
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(667, 85);
+            this.ClientSize = new System.Drawing.Size(475, 113);
             this.Controls.Add(this.label1);
-            this.Name = "tietoaForm";
-            this.Text = "Tietoa";
-            this.Load += new System.EventHandler(this.tietoaForm_Load);
+            this.Name = "Info";
+            this.Text = "Info";
             this.ResumeLayout(false);
             this.PerformLayout();
 

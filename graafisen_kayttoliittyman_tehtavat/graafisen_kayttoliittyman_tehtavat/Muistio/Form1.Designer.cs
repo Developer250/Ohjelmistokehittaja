@@ -254,21 +254,21 @@
             // kIrjasinToolStripMenuItem
             // 
             this.kIrjasinToolStripMenuItem.Name = "kIrjasinToolStripMenuItem";
-            this.kIrjasinToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.kIrjasinToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.kIrjasinToolStripMenuItem.Text = "KIrjasin";
             this.kIrjasinToolStripMenuItem.Click += new System.EventHandler(this.kIrjasinToolStripMenuItem_Click);
             // 
             // tekstinKorostusToolStripMenuItem
             // 
             this.tekstinKorostusToolStripMenuItem.Name = "tekstinKorostusToolStripMenuItem";
-            this.tekstinKorostusToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tekstinKorostusToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.tekstinKorostusToolStripMenuItem.Text = "Tekstin korostus";
             this.tekstinKorostusToolStripMenuItem.Click += new System.EventHandler(this.tekstinKorostusToolStripMenuItem_Click);
             // 
             // tekstinRivitysToolStripMenuItem
             // 
             this.tekstinRivitysToolStripMenuItem.Name = "tekstinRivitysToolStripMenuItem";
-            this.tekstinRivitysToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.tekstinRivitysToolStripMenuItem.Size = new System.Drawing.Size(196, 26);
             this.tekstinRivitysToolStripMenuItem.Text = "Tekstin rivitys";
             this.tekstinRivitysToolStripMenuItem.Click += new System.EventHandler(this.tekstinRivitysToolStripMenuItem_Click);
             // 
@@ -284,12 +284,13 @@
             // tietoaToolStripMenuItem1
             // 
             this.tietoaToolStripMenuItem1.Name = "tietoaToolStripMenuItem1";
-            this.tietoaToolStripMenuItem1.Size = new System.Drawing.Size(224, 26);
-            this.tietoaToolStripMenuItem1.Text = "Tietoa";
+            this.tietoaToolStripMenuItem1.Size = new System.Drawing.Size(126, 26);
+            this.tietoaToolStripMenuItem1.Text = "Tieto";
             this.tietoaToolStripMenuItem1.Click += new System.EventHandler(this.tietoaToolStripMenuItem1_Click);
             // 
             // TekstilaatikkoRTB
             // 
+            this.TekstilaatikkoRTB.AcceptsTab = true;
             this.TekstilaatikkoRTB.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TekstilaatikkoRTB.Location = new System.Drawing.Point(0, 28);
             this.TekstilaatikkoRTB.Name = "TekstilaatikkoRTB";

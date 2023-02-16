@@ -23,15 +23,18 @@ namespace Muistio
             //Koodi teksti-tiedoston avaamiseen
             using (OpenFileDialog atk = new OpenFileDialog()
             
-            {Filter = "TextDocument|*.txt|Rich text Format|*.rtf", ValidateNames = true, Multiselect = false })
+              { Filter = "TextDocument|*.txt|Rich text Format|*.rtf", ValidateNames = true, Multiselect = false })
             {
 
                 if (atk.ShowDialog() == DialogResult.OK)
                 {
-                    tiedostoPolku = atk.FileName;
-                    Task<string> teksti = v1.ReadToEndAsync();
-                    rikasTB.Rtf = teksti.Result;
-                    TekstilaatikkoRTB.Rtf = Text.Result;
+                    using (StreamReader vl = new StreamReader(atk.FileName))
+                    {
+                        tiedostoPolku = atk.FileName;
+                        Task<string> teksti = vl.ReadToEndAsync();
+                        TekstilaatikkoRTB.Rtf = teksti.Result;
+                        
+                    }
                 }
             }
         }
@@ -101,11 +104,10 @@ namespace Muistio
             {
                 if (ttk.ShowDialog() == DialogResult.OK)
                 {
-                    using StreamWriter jonokirjoittaja = new StreamWriter(ttk.FileName))
+                    using (StreamWriter jonokirjoittaja = new StreamWriter(ttk.FileName))
                       {
                         jonokirjoittaja.WriteLineAsync(TekstilaatikkoRTB.Text);
                       }
-
                 }
 
             }
@@ -135,7 +137,7 @@ namespace Muistio
         {
             if (TekstilaatikkoRTB.Text != "")
             {
-            uusiToolStripMenuItem_Click(sender, e);
+            tallennaToolStripMenuItem_Click(sender, e);
             TekstilaatikkoRTB.Text = "";
             }
            else
@@ -168,23 +170,22 @@ namespace Muistio
         {
             if(string.IsNullOrEmpty(tiedostoPolku))
             {
-                using (SaveFileDialog ttk = new SaveFileDialog())
-                { Filter = "TextDocument|*.txt|Rich text Format|*.rtf", ValidateNames = true, Multiselect = false })
+                using (SaveFileDialog ttk = new SaveFileDialog()
+                { Filter = "TextDocument|*.txt|Rich text Format|*.rtf", ValidateNames = true })
                 {
-                    if(ttk.ShowDialog() == DialogResult.OK)
-
+                    if (ttk.ShowDialog() == DialogResult.OK)
                     {
-                        StreamWriter tiedosto = new StreamWriter(ttk.FileName);
-                        tiedosto.WriteLine(this.rikasTB.Rtf);
-                        tiedosto.Close();
+                        using (StreamWriter tiedosto = new StreamWriter(ttk.FileName))
+                        tiedosto.WriteLine(this.TekstilaatikkoRTB.Rtf);
+                       // tiedosto.Close();
                     }
                 }
             }
             else
             {
-              using StreamWriter vk = new StreamWriter(tiedostoPolku))
+              using (StreamWriter vk = new StreamWriter(tiedostoPolku))
                {
-                    vk.WriteLineAsync(rikasTB.Rtf);
+                    vk.WriteLineAsync(TekstilaatikkoRTB.Rtf);
                }
             }
         }
@@ -192,6 +193,13 @@ namespace Muistio
         private void tekstinKorostusToolStripMenuItem_Click(object sender, EventArgs e)
         {
             TekstilaatikkoRTB.SelectionBackColor = Color.Yellow;
+        }
+
+        private void tietoaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+
+            Info tieto = new Info();
+            tieto.ShowDialog();
         }
     }
 }
