@@ -19,7 +19,7 @@ namespace Oppilashallintajärjestelmä
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            tietotauluDG.DataSource = opiskelija.haeOpiskelijat();
+            tietotauluDG.DataSource = Opiskelija.haeOpiskelijat();
 
         }
 
@@ -47,6 +47,21 @@ namespace Oppilashallintajärjestelmä
                 MessageBox.Show("VIRHE - Vaaditut kentät - Etu- ja Sukunimi, puhelin, sähköposti ja opiskelijanumero ", "Tyhjä kenttä", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
             }
+            else
+            {
+                Boolean lisaaAsiakas = Opiskelija.lisaaOpiskelija(enimi, snimi, puh, sposti, opiskelijanro);
+                if (lisaaAsiakas)
+                {
+                    MessageBox.Show("Uusi opiskelija lisätty onnistuneesti", "Opiskelijan lisäys", MessageBoxButtons.OK, MessageBoxIcon.Information);
+
+                }
+                else
+                {
+                    MessageBox.Show("Uutta opiskelijaa ei pystytty lisäämään", "Opiskelijan lisäys", MessageBoxButtons.OK, MessageBoxIcon.Error);
+
+                }
+            }
+            tietotauluDG.DataSource = Opiskelija.haeOpiskelijat();
         }
 
         private void paivitaBT_Click(object sender, EventArgs e)
