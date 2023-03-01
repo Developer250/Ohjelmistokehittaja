@@ -53,9 +53,9 @@ namespace Oppilashallintajärjestelmä
 
             return taulu;
         }
-
-        //Luodaan funktio asiakkaan tietojen muokkaamiseksi
-        public bool muokkaaOpiskelijaa(int oid, String enimi, String snimi, String puh, string email, int onro)
+    
+    //Luodaan funktio asiakkaan tietojen muokkaamiseksi
+    public bool muokkaaOpiskelijaa(int oid, String enimi, String snimi, String puh, string email, int onro)
         {
             MySqlCommand komento = new MySqlCommand();
             String paivitakysely = "UPDATE `yhteystiedot`  SET `etunimi` = @enm," +
