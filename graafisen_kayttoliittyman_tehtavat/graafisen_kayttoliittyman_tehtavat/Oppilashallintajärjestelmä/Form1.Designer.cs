@@ -39,8 +39,12 @@
             this.snimiTB = new System.Windows.Forms.TextBox();
             this.enimiTB = new System.Windows.Forms.TextBox();
             this.spostiTB = new System.Windows.Forms.TextBox();
-            this.puhTB = new System.Windows.Forms.TextBox();
             this.opiskelijanroTB = new System.Windows.Forms.TextBox();
+            this.tyhjennaBT = new System.Windows.Forms.Button();
+            this.tallennaBT = new System.Windows.Forms.Button();
+            this.paivitaBT = new System.Windows.Forms.Button();
+            this.poistaBT = new System.Windows.Forms.Button();
+            this.puhTB = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -119,51 +123,95 @@
             // 
             this.IDTB.Location = new System.Drawing.Point(157, 27);
             this.IDTB.Name = "IDTB";
-            this.IDTB.Size = new System.Drawing.Size(100, 22);
+            this.IDTB.Size = new System.Drawing.Size(143, 22);
             this.IDTB.TabIndex = 7;
             // 
             // snimiTB
             // 
             this.snimiTB.Location = new System.Drawing.Point(157, 85);
             this.snimiTB.Name = "snimiTB";
-            this.snimiTB.Size = new System.Drawing.Size(100, 22);
+            this.snimiTB.Size = new System.Drawing.Size(143, 22);
             this.snimiTB.TabIndex = 8;
             // 
             // enimiTB
             // 
             this.enimiTB.Location = new System.Drawing.Point(157, 59);
             this.enimiTB.Name = "enimiTB";
-            this.enimiTB.Size = new System.Drawing.Size(100, 22);
+            this.enimiTB.Size = new System.Drawing.Size(143, 22);
             this.enimiTB.TabIndex = 9;
             // 
             // spostiTB
             // 
             this.spostiTB.Location = new System.Drawing.Point(548, 59);
             this.spostiTB.Name = "spostiTB";
-            this.spostiTB.Size = new System.Drawing.Size(100, 22);
+            this.spostiTB.Size = new System.Drawing.Size(153, 22);
             this.spostiTB.TabIndex = 10;
-            // 
-            // puhTB
-            // 
-            this.puhTB.Location = new System.Drawing.Point(548, 27);
-            this.puhTB.Name = "puhTB";
-            this.puhTB.Size = new System.Drawing.Size(100, 22);
-            this.puhTB.TabIndex = 11;
             // 
             // opiskelijanroTB
             // 
             this.opiskelijanroTB.Location = new System.Drawing.Point(548, 87);
             this.opiskelijanroTB.Name = "opiskelijanroTB";
-            this.opiskelijanroTB.Size = new System.Drawing.Size(100, 22);
+            this.opiskelijanroTB.Size = new System.Drawing.Size(153, 22);
             this.opiskelijanroTB.TabIndex = 12;
+            // 
+            // tyhjennaBT
+            // 
+            this.tyhjennaBT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.tyhjennaBT.Location = new System.Drawing.Point(42, 131);
+            this.tyhjennaBT.Name = "tyhjennaBT";
+            this.tyhjennaBT.Size = new System.Drawing.Size(100, 34);
+            this.tyhjennaBT.TabIndex = 13;
+            this.tyhjennaBT.Text = "Tyhjennä";
+            this.tyhjennaBT.UseVisualStyleBackColor = false;
+            // 
+            // tallennaBT
+            // 
+            this.tallennaBT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.tallennaBT.Location = new System.Drawing.Point(181, 131);
+            this.tallennaBT.Name = "tallennaBT";
+            this.tallennaBT.Size = new System.Drawing.Size(107, 34);
+            this.tallennaBT.TabIndex = 14;
+            this.tallennaBT.Text = "Tallenna";
+            this.tallennaBT.UseVisualStyleBackColor = false;
+            // 
+            // paivitaBT
+            // 
+            this.paivitaBT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.paivitaBT.Location = new System.Drawing.Point(361, 131);
+            this.paivitaBT.Name = "paivitaBT";
+            this.paivitaBT.Size = new System.Drawing.Size(89, 34);
+            this.paivitaBT.TabIndex = 15;
+            this.paivitaBT.Text = "Päivitä";
+            this.paivitaBT.UseVisualStyleBackColor = false;
+            // 
+            // poistaBT
+            // 
+            this.poistaBT.BackColor = System.Drawing.Color.NavajoWhite;
+            this.poistaBT.Location = new System.Drawing.Point(548, 131);
+            this.poistaBT.Name = "poistaBT";
+            this.poistaBT.Size = new System.Drawing.Size(100, 34);
+            this.poistaBT.TabIndex = 16;
+            this.poistaBT.Text = "Poista";
+            this.poistaBT.UseVisualStyleBackColor = false;
+            // 
+            // puhTB
+            // 
+            this.puhTB.Location = new System.Drawing.Point(548, 28);
+            this.puhTB.Name = "puhTB";
+            this.puhTB.Size = new System.Drawing.Size(153, 22);
+            this.puhTB.TabIndex = 17;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.opiskelijanroTB);
             this.Controls.Add(this.puhTB);
+            this.Controls.Add(this.poistaBT);
+            this.Controls.Add(this.paivitaBT);
+            this.Controls.Add(this.tallennaBT);
+            this.Controls.Add(this.tyhjennaBT);
+            this.Controls.Add(this.opiskelijanroTB);
             this.Controls.Add(this.spostiTB);
             this.Controls.Add(this.enimiTB);
             this.Controls.Add(this.snimiTB);
@@ -197,8 +245,12 @@
         private System.Windows.Forms.TextBox snimiTB;
         private System.Windows.Forms.TextBox enimiTB;
         private System.Windows.Forms.TextBox spostiTB;
-        private System.Windows.Forms.TextBox puhTB;
         private System.Windows.Forms.TextBox opiskelijanroTB;
+        private System.Windows.Forms.Button tyhjennaBT;
+        private System.Windows.Forms.Button tallennaBT;
+        private System.Windows.Forms.Button paivitaBT;
+        private System.Windows.Forms.Button poistaBT;
+        private System.Windows.Forms.TextBox puhTB;
     }
 }
 
