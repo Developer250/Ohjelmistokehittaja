@@ -28,14 +28,14 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.tietotauluDG = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.IDTB = new System.Windows.Forms.TextBox();
+            this.IdTB = new System.Windows.Forms.TextBox();
             this.snimiTB = new System.Windows.Forms.TextBox();
             this.enimiTB = new System.Windows.Forms.TextBox();
             this.spostiTB = new System.Windows.Forms.TextBox();
@@ -45,18 +45,18 @@
             this.paivitaBT = new System.Windows.Forms.Button();
             this.poistaBT = new System.Windows.Forms.Button();
             this.puhTB = new System.Windows.Forms.TextBox();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tietotauluDG)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // tietotauluDG
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(12, 171);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.RowHeadersWidth = 51;
-            this.dataGridView1.RowTemplate.Height = 24;
-            this.dataGridView1.Size = new System.Drawing.Size(776, 276);
-            this.dataGridView1.TabIndex = 0;
+            this.tietotauluDG.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.tietotauluDG.Location = new System.Drawing.Point(12, 171);
+            this.tietotauluDG.Name = "tietotauluDG";
+            this.tietotauluDG.RowHeadersWidth = 51;
+            this.tietotauluDG.RowTemplate.Height = 24;
+            this.tietotauluDG.Size = new System.Drawing.Size(776, 276);
+            this.tietotauluDG.TabIndex = 0;
             // 
             // label1
             // 
@@ -67,7 +67,6 @@
             this.label1.Size = new System.Drawing.Size(32, 22);
             this.label1.TabIndex = 1;
             this.label1.Text = "ID:";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
@@ -119,12 +118,12 @@
             this.label6.TabIndex = 4;
             this.label6.Text = "Puhelin:";
             // 
-            // IDTB
+            // IdTB
             // 
-            this.IDTB.Location = new System.Drawing.Point(157, 27);
-            this.IDTB.Name = "IDTB";
-            this.IDTB.Size = new System.Drawing.Size(143, 22);
-            this.IDTB.TabIndex = 7;
+            this.IdTB.Location = new System.Drawing.Point(157, 27);
+            this.IdTB.Name = "IdTB";
+            this.IdTB.Size = new System.Drawing.Size(143, 22);
+            this.IdTB.TabIndex = 7;
             // 
             // snimiTB
             // 
@@ -163,6 +162,7 @@
             this.tyhjennaBT.TabIndex = 13;
             this.tyhjennaBT.Text = "Tyhjennä";
             this.tyhjennaBT.UseVisualStyleBackColor = false;
+            this.tyhjennaBT.Click += new System.EventHandler(this.tyhjennaBT_Click);
             // 
             // tallennaBT
             // 
@@ -173,6 +173,7 @@
             this.tallennaBT.TabIndex = 14;
             this.tallennaBT.Text = "Tallenna";
             this.tallennaBT.UseVisualStyleBackColor = false;
+            this.tallennaBT.Click += new System.EventHandler(this.tallennaBT_Click);
             // 
             // paivitaBT
             // 
@@ -183,6 +184,7 @@
             this.paivitaBT.TabIndex = 15;
             this.paivitaBT.Text = "Päivitä";
             this.paivitaBT.UseVisualStyleBackColor = false;
+            this.paivitaBT.Click += new System.EventHandler(this.paivitaBT_Click);
             // 
             // poistaBT
             // 
@@ -215,18 +217,18 @@
             this.Controls.Add(this.spostiTB);
             this.Controls.Add(this.enimiTB);
             this.Controls.Add(this.snimiTB);
-            this.Controls.Add(this.IDTB);
+            this.Controls.Add(this.IdTB);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.tietotauluDG);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.tietotauluDG)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -234,14 +236,14 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView tietotauluDG;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox IDTB;
+        private System.Windows.Forms.TextBox IdTB;
         private System.Windows.Forms.TextBox snimiTB;
         private System.Windows.Forms.TextBox enimiTB;
         private System.Windows.Forms.TextBox spostiTB;
