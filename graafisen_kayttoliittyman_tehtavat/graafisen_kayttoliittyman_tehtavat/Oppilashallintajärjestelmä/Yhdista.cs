@@ -21,6 +21,21 @@ namespace Oppilashallintajärjestelmä
             return yhteys;
         }
 
-
+        //Luodaan funktio yhteyden avaamista varten (System.Data -kirjasto)
+        public void avaaYhteys()
+        {
+            if (yhteys.State == ConnectionState.Closed)
+            {
+                yhteys.Open();
+            }
+        }
+        //Luodaan funktio yhteyden sulkemista varten
+        public void suljeYhteys()
+        {
+            if (yhteys.State == ConnectionState.Open)
+            {
+                yhteys.Close();
+            }
+        }
     }
 }
