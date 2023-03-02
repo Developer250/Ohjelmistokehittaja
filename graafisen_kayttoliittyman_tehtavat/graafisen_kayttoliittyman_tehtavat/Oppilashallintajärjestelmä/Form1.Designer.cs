@@ -57,6 +57,7 @@
             this.tietotauluDG.RowTemplate.Height = 24;
             this.tietotauluDG.Size = new System.Drawing.Size(776, 276);
             this.tietotauluDG.TabIndex = 0;
+            this.tietotauluDG.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.tietotauluDG_CellContentClick);
             // 
             // label1
             // 
@@ -195,6 +196,7 @@
             this.poistaBT.TabIndex = 16;
             this.poistaBT.Text = "Poista";
             this.poistaBT.UseVisualStyleBackColor = false;
+            this.poistaBT.Click += new System.EventHandler(this.poistaBT_Click);
             // 
             // puhTB
             // 
