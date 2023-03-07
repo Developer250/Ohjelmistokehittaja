@@ -92,7 +92,6 @@
             this.KayttajaTB.Name = "KayttajaTB";
             this.KayttajaTB.Size = new System.Drawing.Size(173, 22);
             this.KayttajaTB.TabIndex = 0;
-            this.KayttajaTB.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // SalasanaTB
             // 
@@ -146,7 +145,6 @@
             this.Controls.Add(this.loginPictureBox);
             this.Name = "Kirjautumisikkuna";
             this.Text = "Kirjautumisikkuna";
-            this.Load += new System.EventHandler(this.KirjautumislomakeForm_Load);
             ((System.ComponentModel.ISupportInitialize)(this.loginPictureBox)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
