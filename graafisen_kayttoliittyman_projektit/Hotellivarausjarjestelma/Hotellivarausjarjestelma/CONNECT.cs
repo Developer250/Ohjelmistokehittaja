@@ -10,8 +10,8 @@ using MySql.Data.MySqlClient;
 namespace Hotellivarausjarjestelma
 {
      class CONNECT
-    {
-        private MysqlConnection connection = new MySqlConnection("datasource=localhost; port=3306; username=root; password=;database=hotelli");
+     {
+        private MySqlConnection connection = new MySqlConnection("datasource=localhost; port=3306; username=root; password=;database=hotelli");
         //Luodaan funktio yhteyttä varten
         public MySqlConnection getConnection()
         {

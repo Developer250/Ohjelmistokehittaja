@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Xml.Linq;
-
+using MySql.Data.MySqlClient;
 
 namespace Hotellivarausjarjestelma
 {
@@ -19,7 +19,7 @@ namespace Hotellivarausjarjestelma
         {
             MySqlCommand command = new MySqlCommand();
             String insertQuery = INSERT INTO `clients`(`first_name`, `last_name`, `phone`, `country`) VALUES(@fnm, @lnm, @phn, @cnt)
-            command.commandText = insertQuery;
+            command.CommandText = insertQuery;
             command.Connection = conn.getConnection();
             //`first_name`, `lasdt_name`, `phone`, `country`
            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = fnm;
@@ -29,21 +29,21 @@ namespace Hotellivarausjarjestelma
 
             conn.openConnection();
 
-            if(command.executeNonQuery() == 1)
+            if(command.ExecuteNonQuery() == 1)
             {
-                conn.closeConnecrion();
+                conn.closeConnection();
                 return true;
             }
             else
             {
-                conn.closeConnecrion();
+                conn.closeConnection();
                 return false;
             }
         }
         public DataTable getClients()
         {
-            MysqlCommand command = new MysqlCommand("SELCET *  FROM `clients`", conn.GetConnection());
-            MysqlDataAdapter adapter = new MysqlDataAdapter();
+            MySqlCommand command = new MySqlCommand("SELCET *  FROM `clients`", conn.getConnection());
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
             adapter.SelectCommand = command;
