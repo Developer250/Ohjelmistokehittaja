@@ -13,6 +13,7 @@ namespace Hotellivarausjarjestelma
 {
     public partial class ManageClients : Form
     {
+        CLIENT client = new CLIENT();
         public ManageClients()
         {
             InitializeComponent();

@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.username = new System.Windows.Forms.Label();
-            this.button8 = new System.Windows.Forms.Button();
             this.textBoxFirstName = new System.Windows.Forms.TextBox();
             this.textBoxLastName = new System.Windows.Forms.TextBox();
             this.login = new System.Windows.Forms.Button();
+            this.Password = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // username
@@ -43,15 +43,6 @@
             this.username.Size = new System.Drawing.Size(73, 16);
             this.username.TabIndex = 5;
             this.username.Text = "Username:";
-            // 
-            // button8
-            // 
-            this.button8.Location = new System.Drawing.Point(68, 99);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(75, 23);
-            this.button8.TabIndex = 9;
-            this.button8.Text = "Password:";
-            this.button8.UseVisualStyleBackColor = true;
             // 
             // textBoxFirstName
             // 
@@ -70,7 +61,7 @@
             // 
             // login
             // 
-            this.login.Location = new System.Drawing.Point(133, 181);
+            this.login.Location = new System.Drawing.Point(182, 155);
             this.login.Name = "login";
             this.login.Size = new System.Drawing.Size(139, 44);
             this.login.TabIndex = 1;
@@ -78,14 +69,24 @@
             this.login.UseVisualStyleBackColor = true;
             this.login.Click += new System.EventHandler(this.login_Click);
             // 
+            // Password
+            // 
+            this.Password.AutoSize = true;
+            this.Password.Location = new System.Drawing.Point(70, 103);
+            this.Password.Name = "Password";
+            this.Password.Size = new System.Drawing.Size(70, 16);
+            this.Password.TabIndex = 17;
+            this.Password.Text = "Password:";
+            // 
             // customer
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.MediumVioletRed;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.Password);
             this.Controls.Add(this.textBoxLastName);
             this.Controls.Add(this.textBoxFirstName);
-            this.Controls.Add(this.button8);
             this.Controls.Add(this.username);
             this.Controls.Add(this.login);
             this.Name = "customer";
@@ -97,9 +98,9 @@
 
         #endregion
         private System.Windows.Forms.Label username;
-        private System.Windows.Forms.Button button8;
         private System.Windows.Forms.TextBox textBoxFirstName;
         private System.Windows.Forms.TextBox textBoxLastName;
         private System.Windows.Forms.Button login;
+        private System.Windows.Forms.Label Password;
     }
 }
