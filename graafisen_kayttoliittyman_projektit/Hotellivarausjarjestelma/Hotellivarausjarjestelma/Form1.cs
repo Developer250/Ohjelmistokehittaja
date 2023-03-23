@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Hotellivarausjarjestelma
 {
-    public partial class Main_Form_FormClosing : Form
+    public partial class Main_Form : Form
     {
-        public Main_Form_FormClosing()
+        public Main_Form()
         {
             InitializeComponent();
         }

@@ -9,12 +9,13 @@ using System.Runtime.Remoting.Contexts;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using MySql.Data.MySqlClient;
 
 namespace Hotellivarausjarjestelma
 {
-    public partial class customer : Form
+    public partial class signIn : Form
     {
-        public customer()
+        public signIn()
         {
             InitializeComponent();
         }
@@ -64,6 +65,11 @@ namespace Hotellivarausjarjestelma
                     MessageBox.Show("This Username Or Password Doesn't Exists", "Wrong Data", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
+        }
+
+        private void signIn_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

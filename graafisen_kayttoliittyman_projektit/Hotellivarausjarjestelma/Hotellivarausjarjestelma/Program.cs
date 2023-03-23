@@ -16,7 +16,7 @@ namespace Hotellivarausjarjestelma
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Main_Form_FormClosing());
+            Application.Run(new Main_Form());
         }
     }
 }

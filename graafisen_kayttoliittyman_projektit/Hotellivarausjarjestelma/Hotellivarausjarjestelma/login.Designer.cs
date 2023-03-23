@@ -1,6 +1,6 @@
 ﻿namespace Hotellivarausjarjestelma
 {
-    partial class customer
+    partial class signIn
     {
         /// <summary>
         /// Required designer variable.
@@ -29,8 +29,8 @@
         private void InitializeComponent()
         {
             this.username = new System.Windows.Forms.Label();
-            this.textBoxFirstName = new System.Windows.Forms.TextBox();
-            this.textBoxLastName = new System.Windows.Forms.TextBox();
+            this.textBoxUsername = new System.Windows.Forms.TextBox();
+            this.textBoxPassword = new System.Windows.Forms.TextBox();
             this.login = new System.Windows.Forms.Button();
             this.Password = new System.Windows.Forms.Label();
             this.SuspendLayout();
@@ -44,20 +44,20 @@
             this.username.TabIndex = 5;
             this.username.Text = "Username:";
             // 
-            // textBoxFirstName
+            // textBoxUsername
             // 
-            this.textBoxFirstName.Location = new System.Drawing.Point(202, 68);
-            this.textBoxFirstName.Name = "textBoxFirstName";
-            this.textBoxFirstName.Size = new System.Drawing.Size(100, 22);
-            this.textBoxFirstName.TabIndex = 11;
-            this.textBoxFirstName.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            this.textBoxUsername.Location = new System.Drawing.Point(202, 68);
+            this.textBoxUsername.Name = "textBoxUsername";
+            this.textBoxUsername.Size = new System.Drawing.Size(100, 22);
+            this.textBoxUsername.TabIndex = 11;
+            this.textBoxUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
-            // textBoxLastName
+            // textBoxPassword
             // 
-            this.textBoxLastName.Location = new System.Drawing.Point(202, 100);
-            this.textBoxLastName.Name = "textBoxLastName";
-            this.textBoxLastName.Size = new System.Drawing.Size(100, 22);
-            this.textBoxLastName.TabIndex = 16;
+            this.textBoxPassword.Location = new System.Drawing.Point(202, 100);
+            this.textBoxPassword.Name = "textBoxPassword";
+            this.textBoxPassword.Size = new System.Drawing.Size(100, 22);
+            this.textBoxPassword.TabIndex = 16;
             // 
             // login
             // 
@@ -78,19 +78,20 @@
             this.Password.TabIndex = 17;
             this.Password.Text = "Password:";
             // 
-            // customer
+            // signIn
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.MediumVioletRed;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.Password);
-            this.Controls.Add(this.textBoxLastName);
-            this.Controls.Add(this.textBoxFirstName);
+            this.Controls.Add(this.textBoxPassword);
+            this.Controls.Add(this.textBoxUsername);
             this.Controls.Add(this.username);
             this.Controls.Add(this.login);
-            this.Name = "customer";
-            this.Text = "customer";
+            this.Name = "signIn";
+            this.Text = "SignIn";
+            this.Load += new System.EventHandler(this.signIn_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -98,8 +99,8 @@
 
         #endregion
         private System.Windows.Forms.Label username;
-        private System.Windows.Forms.TextBox textBoxFirstName;
-        private System.Windows.Forms.TextBox textBoxLastName;
+        private System.Windows.Forms.TextBox textBoxUsername;
+        private System.Windows.Forms.TextBox textBoxPassword;
         private System.Windows.Forms.Button login;
         private System.Windows.Forms.Label Password;
     }
