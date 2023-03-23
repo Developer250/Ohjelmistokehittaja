@@ -39,7 +39,17 @@ namespace Hotellivarausjarjestelma
                 conn.closeConnecrion();
                 return false;
             }
+        }
+        public DataTable getClients()
+        {
+            MysqlCommand command = new MysqlCommand("SELCET *  FROM `clients`", conn.GetConnection());
+            MysqlDataAdapter adapter = new MysqlDataAdapter();
+            DataTable table = new DataTable();
 
+            adapter.SelectCommand = command;
+            adapter.Fill(table);
+
+            return table;
         }
     }
 }
