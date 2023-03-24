@@ -18,7 +18,7 @@ namespace Hotellivarausjarjestelma
         public DataTable roomTypeList()
         {
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM `rooms_category`", conn.getConnection);
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `rooms_category`", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
@@ -94,31 +94,16 @@ namespace Hotellivarausjarjestelma
             }
         }
 
-        public bool editClient(int id, String fname, String lname, String phone, String country)
+        public DataTable getClients()
         {
-            MySqlCommand command = new MySqlCommand();
-            String editQuery = "UPDATE `clients` SET `first_name` =@fnm, `last_name` =@lnm, `phone` =@phn, `country` =@cnt";
-            command.CommandText = editQuery;
-            command.Connection = conn.getConnection();
+            MySqlCommand command = new MySqlCommand("SELCET *  FROM `clients`", conn.getConnection());
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
 
-            //@num, @tp,@phn, @fr
-            command.Parameters.Add("@num", MySqlDbType.VarChar).Value = id;
-            command.Parameters.Add("@tp", MySqlDbType.VarChar).Value = fname;
-            command.Parameters.Add("@phn", MySqlDbType.VarChar).Value = phone;
-            command.Parameters.Add("@fr", MySqlDbType.VarChar).Value = country;
+            adapter.SelectCommand = command;
+            adapter.Fill(table);
 
-            conn.openConnection();
-
-            if (command.ExecuteNonQuery() == 1)
-            {
-                conn.closeConnection();
-                return true;
-            }
-            else
-            {
-                conn.closeConnection();
-                return false;
-            }
+            return table;
         }
 
         public bool removeRoom(int number)
@@ -144,19 +129,5 @@ namespace Hotellivarausjarjestelma
                 return false;
             }
         }
-
-        public DataTable getClients()
-        {
-            MySqlCommand command = new MySqlCommand("SELCET *  FROM `clients`", conn.getConnection());
-            MySqlDataAdapter adapter = new MySqlDataAdapter();
-            DataTable table = new DataTable();
-
-            adapter.SelectCommand = command;
-            adapter.Fill(table);
-
-            return table;
-        }
     }
-
-    
 }

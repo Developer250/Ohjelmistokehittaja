@@ -24,7 +24,7 @@ namespace Hotellivarausjarjestelma
 
         private void manageClients_Click(object sender, EventArgs e)
         {
-            ManageClientsForm manageCF = new ManageClientsForm();
+            ManageClients manageCF = new ManageClients();
 
             manageCF.ShowDialog();
 
@@ -32,7 +32,7 @@ namespace Hotellivarausjarjestelma
 
         private void manageReservations_Click(object sender, EventArgs e)
         {
-            ManageRoomsForm manageRF = new ManageRoomsForm();
+            ManageRooms manageRF = new ManageRooms();
 
             manageRF.ShowDialog();
         }
@@ -40,7 +40,7 @@ namespace Hotellivarausjarjestelma
         private void manageRooms_Click(object sender, EventArgs e)
         {
 
-            ManageReservationsForm manageRSVF = new ManageReservationsForm();
+            ManageReservations manageRSVF = new ManageReservations();
 
             manageRSVF.ShowDialog();
         }

@@ -91,7 +91,6 @@ namespace Hotellivarausjarjestelma
                 {
                     MessageBox.Show("Room Data NOT Updated", "Edit Room", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
-
             }
             catch (Exception ex)
             {
@@ -139,11 +138,11 @@ namespace Hotellivarausjarjestelma
 
             if (free.Equals("YES"))
             {
-                radioButtonYES.Cheched = true;
+                radioButtonYES.Checked = true;
             }
             else if (free.Equals("NO"))
             {
-                radioButtonNO.Cheched = false;
+                radioButtonNO.Checked = false;
             }
         }
     }
