@@ -134,6 +134,17 @@ namespace Hotellivarausjarjestelma
             textBoxNumber.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
             comboBoxRoomType.SelectedText = dataGridView1.CurrentRow.Cells[1].Value.ToString();
             textBoxPhone.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+
+            string free = dataGridView1.CurrentRow.Cells[3].Value.ToString();
+
+            if (free.Equals("YES"))
+            {
+                radioButtonYES.Cheched = true;
+            }
+            else if (free.Equals("NO"))
+            {
+                radioButtonNO.Cheched = false;
+            }
         }
     }
 }
