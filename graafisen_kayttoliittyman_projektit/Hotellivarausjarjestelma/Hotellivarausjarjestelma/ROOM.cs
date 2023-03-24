@@ -36,8 +36,8 @@ namespace Hotellivarausjarjestelma
             command.Connection = conn.getConnection();
 
             //@num, @tp,@phn, @fr
-            command.Parameters.Add("@num", MySqlDbType.VarChar).Value = number;
-            command.Parameters.Add("@tp", MySqlDbType.VarChar).Value = type;
+            command.Parameters.Add("@num", MySqlDbType.Int32).Value = number;
+            command.Parameters.Add("@tp", MySqlDbType.Int32).Value = type;
             command.Parameters.Add("@phn", MySqlDbType.VarChar).Value = phone;
             command.Parameters.Add("@fr", MySqlDbType.VarChar).Value = free;
 
@@ -76,8 +76,8 @@ namespace Hotellivarausjarjestelma
             command.Connection = conn.getConnection();
 
             //@num, @tp,@phn, @fr
-            command.Parameters.Add("@num", MySqlDbType.VarChar).Value = number;
-            command.Parameters.Add("@tp", MySqlDbType.VarChar).Value = type;
+            command.Parameters.Add("@num", MySqlDbType.Int32).Value = number;
+            command.Parameters.Add("@tp", MySqlDbType.Int32).Value = type;
             command.Parameters.Add("@phn", MySqlDbType.VarChar).Value = phone;
             command.Parameters.Add("@fr", MySqlDbType.VarChar).Value = free;
             conn.openConnection();
