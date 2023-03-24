@@ -124,7 +124,16 @@ namespace Hotellivarausjarjestelma
         }
         private void buttonClear_Click(object sender, EventArgs e)
         {
-            dataGridView1dataGridView1.DataSource = room.getRooms();
+            textBoxNumber.Text = "";
+            comboBoxRoomType.SelectedIndex = 0;
+            textBoxPhone.Text = "";
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBoxNumber.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
+            comboBoxRoomType.SelectedText = dataGridView1.CurrentRow.Cells[1].Value.ToString();
+            textBoxPhone.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
         }
     }
 }
