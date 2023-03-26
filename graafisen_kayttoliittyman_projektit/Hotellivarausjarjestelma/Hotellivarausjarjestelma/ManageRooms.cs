@@ -127,6 +127,8 @@ namespace Hotellivarausjarjestelma
             textBoxNumber.Text = "";
             comboBoxRoomType.SelectedIndex = 0;
             textBoxPhone.Text = "";
+
+            radioButtonYES.Checked = true;
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
