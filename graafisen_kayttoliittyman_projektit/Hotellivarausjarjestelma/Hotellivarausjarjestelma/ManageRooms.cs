@@ -25,6 +25,7 @@ namespace Hotellivarausjarjestelma
             comboBoxRoomType.DisplayMember = "label";
             comboBoxRoomType.ValueMember = "category_id";
 
+            dataGridView1.DataSource = room.getRooms();
         }
 
         private void buttonAddRoom_Click(object sender, EventArgs e)
@@ -142,7 +143,7 @@ namespace Hotellivarausjarjestelma
             }
             else if (free.Equals("NO"))
             {
-                radioButtonNO.Checked = false;
+                radioButtonNO.Checked = true;
             }
         }
     }

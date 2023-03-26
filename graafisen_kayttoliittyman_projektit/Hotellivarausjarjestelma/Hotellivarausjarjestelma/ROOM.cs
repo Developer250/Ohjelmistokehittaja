@@ -71,7 +71,7 @@ namespace Hotellivarausjarjestelma
         public bool editRoom(int number, int type, String lname, String phone, String free)
         {
             MySqlCommand command = new MySqlCommand();
-            String editQuery = "UPDATE `rooms` SET `type`=@tp, `phone`=@phn,`free`= @fr WHERE 1 `number`=@num";
+            String editQuery = "UPDATE `rooms` SET `type`=@tp, `phone`=@phn,`free`= @fr WHERE `number`=@num";
             command.CommandText = editQuery;
             command.Connection = conn.getConnection();
 

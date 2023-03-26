@@ -44,13 +44,14 @@ namespace Hotellivarausjarjestelma
         public bool editClient(int id, String fname, String lname, String phone, String country)
         {
             MySqlCommand command = new MySqlCommand();
-            String editQuery = "UPDATE `clients` SET `first_name` =@fnm, `last_name` =@lnm, `phone` =@phn, `country` =@cnt";
+            String editQuery = "UPDATE `clients` SET `first_name` =@fnm, `last_name` =@lnm, `phone` =@phn, `country` =@cnt WHERE `id` =@cid";
             command.CommandText = editQuery;
             command.Connection = conn.getConnection();
 
-            //@num, @tp,@phn, @fr
-            command.Parameters.Add("@num", MySqlDbType.VarChar).Value = id;
+            //@cid, @fnm,@lnm, @phn, @cnt
+            command.Parameters.Add("@cid", MySqlDbType.VarChar).Value = id;
             command.Parameters.Add("@tp", MySqlDbType.VarChar).Value = fname;
+            command.Parameters.Add("@lnm", MySqlDbType.VarChar).Value = lname;
             command.Parameters.Add("@phn", MySqlDbType.VarChar).Value = phone;
             command.Parameters.Add("@fr", MySqlDbType.VarChar).Value = country;
 
