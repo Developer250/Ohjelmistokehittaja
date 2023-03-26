@@ -31,7 +31,7 @@
             this.buttonClear = new System.Windows.Forms.Button();
             this.buttonRemoveRoom = new System.Windows.Forms.Button();
             this.buttonEditRoom = new System.Windows.Forms.Button();
-            this.buttonAddClient = new System.Windows.Forms.Button();
+            this.buttonAddRoom = new System.Windows.Forms.Button();
             this.textBoxNumber = new System.Windows.Forms.TextBox();
             this.textBoxPhone = new System.Windows.Forms.TextBox();
             this.roomNumber = new System.Windows.Forms.Label();
@@ -77,15 +77,15 @@
             this.buttonEditRoom.Text = "Edit";
             this.buttonEditRoom.UseVisualStyleBackColor = true;
             // 
-            // buttonAddClient
+            // buttonAddRoom
             // 
-            this.buttonAddClient.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.buttonAddClient.Location = new System.Drawing.Point(28, 274);
-            this.buttonAddClient.Name = "buttonAddClient";
-            this.buttonAddClient.Size = new System.Drawing.Size(164, 43);
-            this.buttonAddClient.TabIndex = 4;
-            this.buttonAddClient.Text = "Add new Rooms";
-            this.buttonAddClient.UseVisualStyleBackColor = true;
+            this.buttonAddRoom.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonAddRoom.Location = new System.Drawing.Point(28, 274);
+            this.buttonAddRoom.Name = "buttonAddRoom";
+            this.buttonAddRoom.Size = new System.Drawing.Size(164, 43);
+            this.buttonAddRoom.TabIndex = 4;
+            this.buttonAddRoom.Text = "Add new Rooms";
+            this.buttonAddRoom.UseVisualStyleBackColor = true;
             // 
             // textBoxNumber
             // 
@@ -215,7 +215,7 @@
             this.Controls.Add(this.buttonClear);
             this.Controls.Add(this.buttonRemoveRoom);
             this.Controls.Add(this.buttonEditRoom);
-            this.Controls.Add(this.buttonAddClient);
+            this.Controls.Add(this.buttonAddRoom);
             this.Name = "ManageRooms";
             this.Text = "ManageRooms";
             this.Load += new System.EventHandler(this.ManageRooms_Load);
@@ -232,7 +232,7 @@
         private System.Windows.Forms.Button buttonClear;
         private System.Windows.Forms.Button buttonRemoveRoom;
         private System.Windows.Forms.Button buttonEditRoom;
-        private System.Windows.Forms.Button buttonAddClient;
+        private System.Windows.Forms.Button buttonAddRoom;
         private System.Windows.Forms.TextBox textBoxNumber;
         private System.Windows.Forms.TextBox textBoxPhone;
         private System.Windows.Forms.Label roomNumber;
