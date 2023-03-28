@@ -30,7 +30,9 @@ namespace Hotellivarausjarjestelma
             comboBoxRoomType.ValueMember = "category_id";
 
             int type = Convert.ToInt32(comboBoxRoomNumber.SelectedValue.ToString());
-            comboBoxRoomNumber.DataSource = room.roomByType();
+            comboBoxRoomNumber.DataSource = room.roomByType(2);
+            comboBoxRoomNumber.DisplayMember = "`number`";
+            comboBoxRoomNumber.ValueMember = "`number`";
         }
 
         private void buttonAddReserv_Click(object sender, EventArgs e)

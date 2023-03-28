@@ -35,6 +35,8 @@ namespace Hotellivarausjarjestelma
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
+            command.Parameters.Add("@typ", MySqlDbType.Int32).Value = type;
+            //@typ
             adapter.SelectCommand = command;
             adapter.Fill(table);
 
