@@ -17,6 +17,7 @@ namespace Hotellivarausjarjestelma
             InitializeComponent();
         }
 
+        ROOM room = new ROOM();
         private void dateTimePickerIN_FormatChanged(object sender, EventArgs e)
         {
 
@@ -24,7 +25,12 @@ namespace Hotellivarausjarjestelma
 
         private void ManageReservations_Load(object sender, EventArgs e)
         {
+            comboBoxRoomType.DataSource = room.roomTypeList();
+            comboBoxRoomType.DisplayMember = "label";
+            comboBoxRoomType.ValueMember = "category_id";
 
+            int type = Convert.ToInt32(comboBoxRoomNumber.SelectedValue.ToString());
+            comboBoxRoomNumber.DataSource = room.roomByType();
         }
 
         private void buttonAddReserv_Click(object sender, EventArgs e)
@@ -135,6 +141,16 @@ namespace Hotellivarausjarjestelma
             {
                 MessageBox.Show(ex.Message, "Delete Reservation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void buttonClearReserv_Click(object sender, EventArgs e)
+        {
+            textBoxClientID.Text = "";
+            textBoxReservID.Text = "";
+            comboBoxRoomType.SelectedIndex = 0;
+            dateTimePickerIN.Value = DateTime.Now;
+            dateTimePickerOUT.Value = DateTime.Now;
+
         }
     }
 }

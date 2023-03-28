@@ -111,17 +111,18 @@
             this.buttonClearReserv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonClearReserv.Location = new System.Drawing.Point(241, 315);
             this.buttonClearReserv.Name = "buttonClearReserv";
-            this.buttonClearReserv.Size = new System.Drawing.Size(168, 43);
+            this.buttonClearReserv.Size = new System.Drawing.Size(192, 43);
             this.buttonClearReserv.TabIndex = 38;
             this.buttonClearReserv.Text = "Clear Fields";
             this.buttonClearReserv.UseVisualStyleBackColor = true;
+            this.buttonClearReserv.Click += new System.EventHandler(this.buttonClearReserv_Click);
             // 
             // buttonRemoveReserv
             // 
             this.buttonRemoveReserv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonRemoveReserv.Location = new System.Drawing.Point(241, 377);
             this.buttonRemoveReserv.Name = "buttonRemoveReserv";
-            this.buttonRemoveReserv.Size = new System.Drawing.Size(168, 45);
+            this.buttonRemoveReserv.Size = new System.Drawing.Size(192, 45);
             this.buttonRemoveReserv.TabIndex = 37;
             this.buttonRemoveReserv.Text = "Remove";
             this.buttonRemoveReserv.UseVisualStyleBackColor = true;
@@ -131,7 +132,7 @@
             this.buttonEditReserv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEditReserv.Location = new System.Drawing.Point(28, 377);
             this.buttonEditReserv.Name = "buttonEditReserv";
-            this.buttonEditReserv.Size = new System.Drawing.Size(164, 45);
+            this.buttonEditReserv.Size = new System.Drawing.Size(207, 45);
             this.buttonEditReserv.TabIndex = 36;
             this.buttonEditReserv.Text = "Edit";
             this.buttonEditReserv.UseVisualStyleBackColor = true;
@@ -141,9 +142,9 @@
             this.buttonAddReserv.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonAddReserv.Location = new System.Drawing.Point(28, 315);
             this.buttonAddReserv.Name = "buttonAddReserv";
-            this.buttonAddReserv.Size = new System.Drawing.Size(164, 43);
+            this.buttonAddReserv.Size = new System.Drawing.Size(207, 43);
             this.buttonAddReserv.TabIndex = 35;
-            this.buttonAddReserv.Text = "Add new Rooms";
+            this.buttonAddReserv.Text = "Add new Reservation";
             this.buttonAddReserv.UseVisualStyleBackColor = true;
             // 
             // textBoxReservID

@@ -28,6 +28,19 @@ namespace Hotellivarausjarjestelma
             return table;
         }
 
+        public DataTable roomByType(int type)
+        {
+
+            MySqlCommand command = new MySqlCommand("SELECT * FROM `rooms` WHERE `type`= @typ", conn.getConnection());
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
+
+            adapter.SelectCommand = command;
+            adapter.Fill(table);
+
+            return table;
+        }
+
         public bool addRoom(int number,int type, String phone, String free)
         {
             MySqlCommand command = new MySqlCommand();
