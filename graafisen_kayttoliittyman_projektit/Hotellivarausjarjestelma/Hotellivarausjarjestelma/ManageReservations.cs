@@ -1,5 +1,4 @@
-﻿using Hotellivarausjarjestelma;
-using System.Windows.Forms;
+﻿using System.Windows.Forms;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -21,6 +20,7 @@ namespace Hotellivarausjarjestelma
 
         ROOM room = new ROOM();
         RESERVATION reservation = new RESERVATION();
+
         private void ManageReservations_Load(object sender, EventArgs e)
         {
             //display room's type
