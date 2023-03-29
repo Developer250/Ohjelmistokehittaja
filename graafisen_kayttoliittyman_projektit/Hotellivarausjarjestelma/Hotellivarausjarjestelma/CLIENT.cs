@@ -70,7 +70,7 @@ namespace Hotellivarausjarjestelma
         }
         public DataTable getClients()
         {
-            MySqlCommand command = new MySqlCommand("SELECT *  FROM ´clients´", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT *  FROM clients", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
