@@ -1,6 +1,6 @@
-﻿namespace Hotellivarausjarjestelma
+﻿namespace Hotel_System
 {
-    partial class signIn
+    partial class LoginForm
     {
         /// <summary>
         /// Required designer variable.
@@ -50,7 +50,6 @@
             this.textBoxUsername.Name = "textBoxUsername";
             this.textBoxUsername.Size = new System.Drawing.Size(100, 22);
             this.textBoxUsername.TabIndex = 11;
-            this.textBoxUsername.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // textBoxPassword
             // 
@@ -67,7 +66,6 @@
             this.login.TabIndex = 1;
             this.login.Text = "Login";
             this.login.UseVisualStyleBackColor = true;
-            this.login.Click += new System.EventHandler(this.login_Click);
             // 
             // Password
             // 
@@ -78,7 +76,7 @@
             this.Password.TabIndex = 17;
             this.Password.Text = "Password:";
             // 
-            // signIn
+            // LoginForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -89,9 +87,9 @@
             this.Controls.Add(this.textBoxUsername);
             this.Controls.Add(this.username);
             this.Controls.Add(this.login);
-            this.Name = "signIn";
+            this.Name = "LoginForm";
             this.Text = "SignIn";
-            this.Load += new System.EventHandler(this.signIn_Load);
+            this.Load += new System.EventHandler(this.LoginForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

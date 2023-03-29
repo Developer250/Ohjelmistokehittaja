@@ -14,7 +14,7 @@ namespace Hotellivarausjarjestelma
         RESERVATION reservation = new RESERVATION();
         public DataTable GetAllReservations()
         {
-            MySqlCommand command = new MySqlCommand("SELECT *  FROM `reservations`", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT *  FROM reservations", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
