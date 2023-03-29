@@ -51,10 +51,10 @@ namespace Hotellivarausjarjestelma
 
             //@cid, @fnm,@lnm, @phn, @cnt
             command.Parameters.Add("@cid", MySqlDbType.VarChar).Value = id;
-            command.Parameters.Add("@tp", MySqlDbType.VarChar).Value = fname;
+            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = fname;
             command.Parameters.Add("@lnm", MySqlDbType.VarChar).Value = lname;
             command.Parameters.Add("@phn", MySqlDbType.VarChar).Value = phone;
-            command.Parameters.Add("@fr", MySqlDbType.VarChar).Value = country;
+            command.Parameters.Add("@cnt", MySqlDbType.VarChar).Value = country;
 
             conn.openConnection();
 
@@ -89,7 +89,7 @@ namespace Hotellivarausjarjestelma
             command.Connection = conn.getConnection();
 
             //@number
-            command.Parameters.Add("@num", MySqlDbType.Int32).Value = id;
+            command.Parameters.Add("@cid", MySqlDbType.Int32).Value = id;
 
             conn.openConnection();
 
