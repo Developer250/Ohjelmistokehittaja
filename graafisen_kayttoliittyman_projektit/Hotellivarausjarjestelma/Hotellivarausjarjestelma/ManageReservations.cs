@@ -20,7 +20,7 @@ namespace Hotellivarausjarjestelma
         }
 
         ROOM room = new ROOM();
-      
+        RESERVATION reservation = new RESERVATION();
         private void ManageReservations_Load(object sender, EventArgs e)
         {
             //display room's type
@@ -34,7 +34,7 @@ namespace Hotellivarausjarjestelma
             comboBoxRoomNumber.DisplayMember = "number";
             comboBoxRoomNumber.ValueMember = "number";
 
-            dataGridView1Reservations.DataSource = Reservation.GetAllReservations();
+            dataGridView1Reservations.DataSource = reservation.GetAllReservations();
 
         }
 
@@ -66,7 +66,7 @@ namespace Hotellivarausjarjestelma
                 }
                 else
                 {
-                    if (reservation.MakeReservation(roomNumber, clientID, dateIn, dateOut))
+                    if (reservation.addReservation(roomNumber, clientID, dateIn, dateOut))
                     {
                         room.SetRoomFree(roomNumber, "NO");
                         dataGridView1Reservations.DataSource = reservation.GetAllReservations();
@@ -107,7 +107,7 @@ namespace Hotellivarausjarjestelma
                 }
                 else
                 {
-                    if (reservation.EditReservation(reservationID, roomNumber, clientID, dateIn, dateOut))
+                    if (reservation.editReserv(reservationID, roomNumber, clientID, dateIn, dateOut))
                     {
                         room.SetRoomFree(roomNumber, "NO");
                         dataGridView1Reservations.DataSource = reservation.GetAllReservations();
@@ -118,7 +118,6 @@ namespace Hotellivarausjarjestelma
                         MessageBox.Show("ERROR - Reservation not updated!", "Edit Reservation", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
-
 
             }
             catch (Exception ex)
@@ -135,7 +134,7 @@ namespace Hotellivarausjarjestelma
                 int reservationID = Convert.ToInt32(textBoxReservID.Text);
                 int roomNumber = Convert.ToInt32(dataGridView1Reservations.CurrentRow.Cells[1].Value.ToString());
 
-                if (reservation.RemoveReservation(reservationID))
+                if (reservation.removeReserv(reservationID))
                 {
                     room.SetRoomFree(roomNumber, "YES");
                     dataGridView1Reservations.DataSource = reservation.GetAllReservations();
@@ -163,7 +162,7 @@ namespace Hotellivarausjarjestelma
                 comboBoxRoomNumber.DisplayMember = "number";
                 comboBoxRoomNumber.ValueMember = "number";
             }
-            catch (Exception ex)
+            catch (Exception)
             {
                 //MessageBox.Show(ex.Message, "Room number error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }

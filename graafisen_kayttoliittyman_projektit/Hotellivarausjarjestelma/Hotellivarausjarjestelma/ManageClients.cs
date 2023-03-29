@@ -114,7 +114,7 @@ namespace Hotellivarausjarjestelma
                     MessageBox.Show("Client Deleted Successfuly", "Delete Client", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     // you can clear all textboxes after the delete if you want
                     // by calling the clear button
-                    buttonClear.PerformClick();
+                    buttonRemoveClient.PerformClick();
 
                 }
                 else

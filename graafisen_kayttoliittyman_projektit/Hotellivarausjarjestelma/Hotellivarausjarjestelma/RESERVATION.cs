@@ -11,9 +11,10 @@ namespace Hotellivarausjarjestelma
     class RESERVATION
     {
         CONNECT conn = new CONNECT();
-        public DataTable getAllReserv()
+        RESERVATION reservation = new RESERVATION();
+        public DataTable GetAllReservations()
         {
-            MySqlCommand command = new MySqlCommand("SELCET *  FROM `reservations`", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT *  FROM `reservations`", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
@@ -22,6 +23,8 @@ namespace Hotellivarausjarjestelma
 
             return table;
         }
+
+
         public bool addReservation(int number, int clientId, DateTime dateIN, DateTime dateOUT)
         {
             MySqlCommand command = new MySqlCommand();

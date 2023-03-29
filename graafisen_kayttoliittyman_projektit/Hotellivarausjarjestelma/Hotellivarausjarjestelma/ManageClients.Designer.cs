@@ -48,21 +48,21 @@
             // 
             // buttonAddClient
             // 
-            this.buttonAddClient.Location = new System.Drawing.Point(95, 328);
+            this.buttonAddClient.Location = new System.Drawing.Point(62, 318);
             this.buttonAddClient.Name = "buttonAddClient";
-            this.buttonAddClient.Size = new System.Drawing.Size(75, 23);
+            this.buttonAddClient.Size = new System.Drawing.Size(108, 33);
             this.buttonAddClient.TabIndex = 0;
-            this.buttonAddClient.Text = "button1";
+            this.buttonAddClient.Text = "Add CLient";
             this.buttonAddClient.UseVisualStyleBackColor = true;
             this.buttonAddClient.Click += new System.EventHandler(this.buttonAddClient_Click);
             // 
             // buttonEditCLient
             // 
-            this.buttonEditCLient.Location = new System.Drawing.Point(95, 357);
+            this.buttonEditCLient.Location = new System.Drawing.Point(62, 357);
             this.buttonEditCLient.Name = "buttonEditCLient";
-            this.buttonEditCLient.Size = new System.Drawing.Size(75, 23);
+            this.buttonEditCLient.Size = new System.Drawing.Size(108, 43);
             this.buttonEditCLient.TabIndex = 1;
-            this.buttonEditCLient.Text = "button2";
+            this.buttonEditCLient.Text = "Edit";
             this.buttonEditCLient.UseVisualStyleBackColor = true;
             this.buttonEditCLient.Click += new System.EventHandler(this.buttonEditCLient_Click);
             // 
@@ -70,19 +70,19 @@
             // 
             this.buttonClearClient.Location = new System.Drawing.Point(206, 357);
             this.buttonClearClient.Name = "buttonClearClient";
-            this.buttonClearClient.Size = new System.Drawing.Size(75, 23);
+            this.buttonClearClient.Size = new System.Drawing.Size(106, 43);
             this.buttonClearClient.TabIndex = 2;
-            this.buttonClearClient.Text = "button3";
+            this.buttonClearClient.Text = "Vlear Fields";
             this.buttonClearClient.UseVisualStyleBackColor = true;
             this.buttonClearClient.Click += new System.EventHandler(this.buttonClearClient_Click);
             // 
             // buttonRemoveClient
             // 
-            this.buttonRemoveClient.Location = new System.Drawing.Point(206, 328);
+            this.buttonRemoveClient.Location = new System.Drawing.Point(206, 318);
             this.buttonRemoveClient.Name = "buttonRemoveClient";
-            this.buttonRemoveClient.Size = new System.Drawing.Size(75, 23);
+            this.buttonRemoveClient.Size = new System.Drawing.Size(106, 33);
             this.buttonRemoveClient.TabIndex = 3;
-            this.buttonRemoveClient.Text = "button4";
+            this.buttonRemoveClient.Text = "Remove";
             this.buttonRemoveClient.UseVisualStyleBackColor = true;
             this.buttonRemoveClient.Click += new System.EventHandler(this.buttonRemoveClient_Click);
             // 

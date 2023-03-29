@@ -19,7 +19,7 @@ namespace Hotellivarausjarjestelma
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            Application.Exit();
+           
         }
 
         private void manageClients_Click(object sender, EventArgs e)

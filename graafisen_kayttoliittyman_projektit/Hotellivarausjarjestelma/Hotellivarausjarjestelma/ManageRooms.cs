@@ -148,5 +148,10 @@ namespace Hotellivarausjarjestelma
                 radioButtonNO.Checked = true;
             }
         }
+
+        private void buttonClear_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }

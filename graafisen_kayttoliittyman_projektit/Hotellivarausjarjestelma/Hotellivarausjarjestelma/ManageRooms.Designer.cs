@@ -56,6 +56,7 @@
             this.buttonClear.TabIndex = 7;
             this.buttonClear.Text = "Clear Fields";
             this.buttonClear.UseVisualStyleBackColor = true;
+            this.buttonClear.Click += new System.EventHandler(this.buttonClear_Click_1);
             // 
             // buttonRemoveRoom
             // 

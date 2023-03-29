@@ -11,27 +11,27 @@ namespace Hotellivarausjarjestelma
 {
      class CONNECT
      {
-        private MySqlConnection connection = new MySqlConnection("datasource=localhost; port=3306; username=root; password=;database=hotelli");
+        private MySqlConnection conn = new MySqlConnection("datasource=localhost; port=3306; username=root; password=;database=hotellivarausjarjestelma");
         //Luodaan funktio yhteyttä varten
         public MySqlConnection getConnection()
         {
-            return connection;
+            return conn;
         }
 
         //Luodaan funktio yhteyden avaamista varten (System.Data -kirjasto)
         public void openConnection()
         {
-            if (connection.State == ConnectionState.Closed)
+            if (conn.State == ConnectionState.Closed)
             {
-                connection.Open();
+                conn.Open();
             }
         }
         //Luodaan funktio yhteyden sulkemista varten
         public void closeConnection()
         {
-            if (connection.State == ConnectionState.Open)
+            if (conn.State == ConnectionState.Open)
             {
-                connection.Close();
+                conn.Close();
             }
         }
     }

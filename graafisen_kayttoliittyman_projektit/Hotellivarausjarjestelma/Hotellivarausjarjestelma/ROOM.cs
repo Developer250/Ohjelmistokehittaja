@@ -70,10 +70,34 @@ namespace Hotellivarausjarjestelma
             }
         }
 
+        //set free to NO/YES
+        public bool SetRoomFree(int number, String isFree)
+        {
+            MySqlCommand command = new MySqlCommand("UPDATE `rooms` SET `free`=@isFree' WHERE `number`=@number", conn.getConnection());
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
+
+            command.Parameters.Add("@number", MySqlDbType.Int32).Value = number;
+            command.Parameters.Add("@isFree", MySqlDbType.VarChar).Value = isFree;
+
+            conn.openConnection();
+            if (command.ExecuteNonQuery() == 1)
+            {
+                conn.closeConnection();
+                return true;
+            }
+            else
+            {
+                conn.closeConnection();
+                return false;
+            }
+        }
+
+
         public DataTable getRooms()
         {
 
-            MySqlCommand command = new MySqlCommand("SELCET *  FROM `rooms`", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT *  FROM ´rooms´", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
@@ -98,7 +122,7 @@ namespace Hotellivarausjarjestelma
             return Convert.ToInt32(table.Rows[0][0].ToString());
         }
 
-        public bool editRoom(int number, int type, String lname, String phone, String free)
+        public bool editRoom(int number, int type, String phone, String free)
         {
             MySqlCommand command = new MySqlCommand();
             String editQuery = "UPDATE `rooms` SET `type`=@tp, `phone`=@phn,`free`= @fr WHERE `number`=@num";
@@ -126,7 +150,7 @@ namespace Hotellivarausjarjestelma
 
         public DataTable getClients()
         {
-            MySqlCommand command = new MySqlCommand("SELCET *  FROM `clients`", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT *  FROM clients", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
