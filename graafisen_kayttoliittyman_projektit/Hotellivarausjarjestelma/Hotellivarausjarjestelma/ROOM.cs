@@ -31,7 +31,7 @@ namespace Hotellivarausjarjestelma
         public DataTable roomByType(int number)
         {
 
-            MySqlCommand command = new MySqlCommand("UPDATE `rooms` SET =`free`= 'NO'`WHERE `number`=@um", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("UPDATE `rooms` SET `free`= 'NO'`WHERE `number`=@um", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
@@ -46,7 +46,7 @@ namespace Hotellivarausjarjestelma
         public bool addRoom(int number,int type, String phone, String free)
         {
             MySqlCommand command = new MySqlCommand();
-            String insertQuery = "INSERT INTO `rooms`(`number`, `type`, `phone`, `free`) VALUES (@num,  @tp, @phn, @fr)";
+            String insertQuery = "INSERT INTO rooms" + "(`number`, `type`, `phone`, `free`)" + "VALUES (@num,  @tp, @phn, @fr)";
             command.CommandText = insertQuery;
             command.Connection = conn.getConnection();
 
@@ -97,7 +97,7 @@ namespace Hotellivarausjarjestelma
         public DataTable getRooms()
         {
 
-            MySqlCommand command = new MySqlCommand("SELECT *  FROM ´rooms´", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("SELECT *  FROM rooms", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 

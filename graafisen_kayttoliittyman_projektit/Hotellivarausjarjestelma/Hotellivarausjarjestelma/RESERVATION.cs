@@ -25,7 +25,7 @@ namespace Hotellivarausjarjestelma
         }
 
 
-        public bool addReservation(int number, int clientId, DateTime dateIN, DateTime dateOUT)
+        public bool addReservation(int roomNumber, int clientId, DateTime dateIN, DateTime dateOUT)
         {
             MySqlCommand command = new MySqlCommand();
             String insertQuery = "INSERT INTO `reservations`(`roomNumber`, `clientid`, `DateIn`, `DateOut`) VALUES (@rnm, @cid, @din, @dout)";
@@ -33,7 +33,7 @@ namespace Hotellivarausjarjestelma
             command.Connection = conn.getConnection();
 
             //(@rnm, @cid, @din, @dout
-            command.Parameters.Add("@rnm", MySqlDbType.Int32).Value = number;
+            command.Parameters.Add("@rnm", MySqlDbType.Int32).Value = roomNumber;
             command.Parameters.Add("@cid", MySqlDbType.Int32).Value = clientId;
             command.Parameters.Add("@din", MySqlDbType.Date).Value = dateIN;
             command.Parameters.Add("@dout", MySqlDbType.Date).Value = dateOUT;
@@ -51,7 +51,7 @@ namespace Hotellivarausjarjestelma
                 return false;
             }
         }
-        public bool editReserv(int number, int clientId,int reservId, DateTime dateIN, DateTime dateOUT)
+        public bool editReserv(int roomNumber, int clientId,int reservId, DateTime dateIN, DateTime dateOUT)
         {
             MySqlCommand command = new MySqlCommand();
             String editQuery = "UPDATE `reservations` SET `roomNumber`=@rnm ,`clientid`=@cid ,`DateIn`=@din ,`DateOut`= @dout WHERE  `reservid`=@rvid";
@@ -60,7 +60,7 @@ namespace Hotellivarausjarjestelma
 
             //(@rnm, @cid, @din, @dout,@rvid
             command.Parameters.Add("@rvid", MySqlDbType.Int32).Value = reservId;
-            command.Parameters.Add("@rnm", MySqlDbType.Int32).Value = number;
+            command.Parameters.Add("@rnm", MySqlDbType.Int32).Value = roomNumber;
             command.Parameters.Add("@cid", MySqlDbType.Int32).Value = clientId;
             command.Parameters.Add("@din", MySqlDbType.Date).Value = dateIN;
             command.Parameters.Add("@dout", MySqlDbType.Date).Value = dateOUT;
