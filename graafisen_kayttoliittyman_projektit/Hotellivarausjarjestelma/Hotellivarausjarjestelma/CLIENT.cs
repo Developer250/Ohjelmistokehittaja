@@ -18,15 +18,16 @@ namespace Hotellivarausjarjestelma
         public bool insertClient(String fname, String lname, String phone, String country)
         {
             MySqlCommand command = new MySqlCommand();
-            String insertQuery = "INSERT INTO `clients`(`first_name`, `last_name`, `phone`, `country`) VALUES(@fnm, @lnm, @phn, @cnt)";
+            String insertQuery = "INSERT INTO clients" + "(first_name, last_name, phone, country)" + " VALUES(@fnm, @lnm, @phn, @cnt)";
             command.CommandText = insertQuery;
             command.Connection = conn.getConnection();
             //`first_name`, `lasdt_name`, `phone`, `country`
            command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = fname;
            command.Parameters.Add("@lnm", MySqlDbType.VarChar).Value = lname;
-           command.Parameters.Add("@fnm", MySqlDbType.VarChar).Value = phone;
-           command.Parameters.Add("@lnm", MySqlDbType.VarChar).Value = country;
+           command.Parameters.Add("@phn", MySqlDbType.VarChar).Value = phone;
+           command.Parameters.Add("@cnt", MySqlDbType.VarChar).Value = country;
 
+          
             conn.openConnection();
 
             if(command.ExecuteNonQuery() == 1)
