@@ -1,4 +1,6 @@
-﻿using System;
+﻿using Hotellivarausjarjestelma;
+using System.Windows.Forms;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -6,7 +8,7 @@ using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using System.Windows.Forms;
+
 
 namespace Hotellivarausjarjestelma
 {
@@ -18,21 +20,31 @@ namespace Hotellivarausjarjestelma
         }
 
         ROOM room = new ROOM();
-        private void dateTimePickerIN_FormatChanged(object sender, EventArgs e)
-        {
-
-        }
-
+      
         private void ManageReservations_Load(object sender, EventArgs e)
         {
+            //display room's type
             comboBoxRoomType.DataSource = room.roomTypeList();
             comboBoxRoomType.DisplayMember = "label";
             comboBoxRoomType.ValueMember = "category_id";
 
-            int type = Convert.ToInt32(comboBoxRoomNumber.SelectedValue.ToString());
-            comboBoxRoomNumber.DataSource = room.roomByType(2);
-            comboBoxRoomNumber.DisplayMember = "`number`";
-            comboBoxRoomNumber.ValueMember = "`number`";
+            //display free room's number depending on selected type
+            int type = Convert.ToInt32(comboBoxRoomType.SelectedValue.ToString());
+            comboBoxRoomNumber.DataSource = room.roomByType(type);
+            comboBoxRoomNumber.DisplayMember = "number";
+            comboBoxRoomNumber.ValueMember = "number";
+
+            dataGridView1Reservations.DataSource = Reservation.GetAllReservations();
+
+        }
+
+        private void buttonClear_Click(object sender, EventArgs e)
+        {
+            textBoxReservID.Text = "";
+            textBoxClientID.Text = "";
+            comboBoxRoomType.SelectedIndex = 0;
+            dateTimePickerIN.Value = DateTime.Now;
+            dateTimePickerOUT.Value = DateTime.Now;
         }
 
         private void buttonAddReserv_Click(object sender, EventArgs e)
@@ -44,114 +56,136 @@ namespace Hotellivarausjarjestelma
                 DateTime dateIn = dateTimePickerIN.Value;
                 DateTime dateOut = dateTimePickerOUT.Value;
 
-                // date in must be = or > today date
-                // date out must be = or > date in
-                if (DateTime.Compare(dateIn.Date, DateTime.Now.Date) < 0)
+                if (dateIn < DateTime.Now)
                 {
-                    MessageBox.Show("The Date In Must Be = or > To Today Date", "Invalid Date In", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("The Date must be Greater Or Equal than Current Date", "Invalid Date In", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
-                else if (DateTime.Compare(dateOut.Date, dateIn.Date) < 0)
+                else if (dateOut < dateIn)
                 {
-                    MessageBox.Show("The Date Out Must Be = or > To Date In", "Invalid Date Out", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("The DateOut must be Greater Or Equal than DateIn", "Invalid Date Out", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    if (reservation.addReservation(roomNumber, clientID, dateIn, dateOut))
+                    if (reservation.MakeReservation(roomNumber, clientID, dateIn, dateOut))
                     {
-                        // set the room free column to NO
-                        // you can add a message if the room is edited
-                        room.setRoomFree(roomNumber, "No");
-                        dataGridView1.DataSource = reservation.getAllReserv();
-                        MessageBox.Show("New Reservation Added", "Add Reservation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        room.SetRoomFree(roomNumber, "NO");
+                        dataGridView1Reservations.DataSource = reservation.GetAllReservations();
+                        MessageBox.Show("Reservation made successfully!", "Make Reservation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        buttonClearReserv.PerformClick();
                     }
                     else
                     {
-                        MessageBox.Show("Reservation NOT Added", "Add Reservation", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("ERROR - Reservation not added!", "Make Reservation", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
+
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Add Reservation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Make Reservation error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
 
         private void buttonEditReserv_Click(object sender, EventArgs e)
         {
-
             try
             {
-                int rservID = Convert.ToInt32(textBoxReservId.Text);
+                int reservationID = Convert.ToInt32(textBoxClientID.Text);
                 int clientID = Convert.ToInt32(textBoxClientID.Text);
-                int roomNumber = Convert.ToInt32(dataGridView1.CurrentRow.Cells[1].Value.ToString());
+                int roomNumber = Convert.ToInt32(dataGridView1Reservations.CurrentRow.Cells[1].Value.ToString());
                 DateTime dateIn = dateTimePickerIN.Value;
                 DateTime dateOut = dateTimePickerOUT.Value;
 
-                // date in must be = or > today date
-                // date out must be = or > date in
                 if (dateIn < DateTime.Now)
                 {
-                    MessageBox.Show("The Date In Must Be = or > To Today Date", "Invalid Date In", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("The Date must be Greater Or Equal than Current Date", "Invalid Date In", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else if (dateOut < dateIn)
                 {
-                    MessageBox.Show("The Date Out Must Be = or > To Date In", "Invalid Date Out", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    MessageBox.Show("The DateOut must be Greater Or Equal than DateIn", "Invalid Date Out", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 }
                 else
                 {
-                    //rservId
-                    if (reservation.editReserv(rservID, roomNumber, clientID, dateIn, dateOut))
+                    if (reservation.EditReservation(reservationID, roomNumber, clientID, dateIn, dateOut))
                     {
-                        // set the room free column to NO
-                        // you can add a message if the room is edited
-                        room.setRoomFree(roomNumber, "No");
-                        dataGridView1.DataSource = reservation.getAllReserv();
-                        MessageBox.Show("Reservation Data Updated", "Edit Reservation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        room.SetRoomFree(roomNumber, "NO");
+                        dataGridView1Reservations.DataSource = reservation.GetAllReservations();
+                        MessageBox.Show("Reservation data updated!", "Edit Reservation", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     }
                     else
                     {
-                        MessageBox.Show("Reservation NOT Added", "Add Reservation", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                        MessageBox.Show("ERROR - Reservation not updated!", "Edit Reservation", MessageBoxButtons.OK, MessageBoxIcon.Error);
                     }
                 }
+
 
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Add Reservation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Edit Reservation error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
-
         }
 
         private void buttonRemoveReserv_Click(object sender, EventArgs e)
         {
+
             try
             {
-                int reservId = Convert.ToInt32(textBoxReservId.Text);
-                int roomNumber = Convert.ToInt32(dataGridView1.CurrentRow.Cells[1].Value.ToString());
-                if (reservation.removeReserv(reservId))
-                {
-                    dataGridView1.DataSource = reservation.getAllReserv();
-                    // after deleting a reservation we need to set free column to 'Yes'
+                int reservationID = Convert.ToInt32(textBoxReservID.Text);
+                int roomNumber = Convert.ToInt32(dataGridView1Reservations.CurrentRow.Cells[1].Value.ToString());
 
-                    room.setRoomFree(roomNumber, "Yes");
-                    MessageBox.Show("Reservation Deleted", "Delete Reservation", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                if (reservation.RemoveReservation(reservationID))
+                {
+                    room.SetRoomFree(roomNumber, "YES");
+                    dataGridView1Reservations.DataSource = reservation.GetAllReservations();
+                    MessageBox.Show("Reservation deleted successfully!", "Reservation Delete", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    buttonClearReserv.PerformClick();
+                }
+                else
+                {
+                    MessageBox.Show("ERROR - Reservation not deleted!", "Reservation Delete", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
             catch (Exception ex)
             {
-                MessageBox.Show(ex.Message, "Delete Reservation Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show(ex.Message, "Delete reservation error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
 
-        private void buttonClearReserv_Click(object sender, EventArgs e)
+        private void comboBoxRoomType_SelectedIndexChanged(object sender, EventArgs e)
         {
-            textBoxClientID.Text = "";
-            textBoxReservID.Text = "";
-            comboBoxRoomType.SelectedIndex = 0;
-            dateTimePickerIN.Value = DateTime.Now;
-            dateTimePickerOUT.Value = DateTime.Now;
+            try
+            {
+                //display room's number depending on selected type
+                int type = Convert.ToInt32(comboBoxRoomNumber.SelectedValue.ToString());
+                comboBoxRoomNumber.DataSource = room.roomByType(type);
+                comboBoxRoomNumber.DisplayMember = "number";
+                comboBoxRoomNumber.ValueMember = "number";
+            }
+            catch (Exception ex)
+            {
+                //MessageBox.Show(ex.Message, "Room number error", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void dataGridView1Reservations_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            textBoxReservID.Text = dataGridView1Reservations.CurrentRow.Cells[0].Value.ToString();
+
+            //room ID
+            int roomID = Convert.ToInt32(dataGridView1Reservations.CurrentRow.Cells[1].Value.ToString());
+
+            //room type from ddl
+            comboBoxRoomType.SelectedValue = room.GetRoomType(roomID);
+
+            //room number from ddl
+            comboBoxRoomNumber.SelectedValue = roomID;
+            textBoxClientID.Text = dataGridView1Reservations.CurrentRow.Cells[2].Value.ToString();
+
+            dateTimePickerIN.Value = Convert.ToDateTime(dataGridView1Reservations.CurrentRow.Cells[3].Value.ToString());
+            dateTimePickerOUT.Value = Convert.ToDateTime(dataGridView1Reservations.CurrentRow.Cells[4].Value.ToString());
+
 
         }
     }

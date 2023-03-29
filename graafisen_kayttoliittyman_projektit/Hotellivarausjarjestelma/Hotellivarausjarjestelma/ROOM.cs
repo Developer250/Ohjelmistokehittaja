@@ -28,14 +28,14 @@ namespace Hotellivarausjarjestelma
             return table;
         }
 
-        public DataTable roomByType(int type)
+        public DataTable roomByType(int number)
         {
 
-            MySqlCommand command = new MySqlCommand("SELECT * FROM `rooms` WHERE `type`= @typ", conn.getConnection());
+            MySqlCommand command = new MySqlCommand("UPDATE `rooms` SET =`free`= 'NO'`WHERE `number`=@um", conn.getConnection());
             MySqlDataAdapter adapter = new MySqlDataAdapter();
             DataTable table = new DataTable();
 
-            command.Parameters.Add("@typ", MySqlDbType.Int32).Value = type;
+            command.Parameters.Add("@num", MySqlDbType.Int32).Value = number;
             //@typ
             adapter.SelectCommand = command;
             adapter.Fill(table);
@@ -81,6 +81,21 @@ namespace Hotellivarausjarjestelma
             adapter.Fill(table);
 
             return table;
+        }
+
+        //get room type id
+        public int GetRoomType(int number)
+        {
+            MySqlCommand command = new MySqlCommand("SELECT type FROM rooms WHERE number=@number", conn.getConnection());
+            MySqlDataAdapter adapter = new MySqlDataAdapter();
+            DataTable table = new DataTable();
+
+            command.Parameters.Add("@number", MySqlDbType.Int32).Value = number;
+
+            adapter.SelectCommand = command;
+            adapter.Fill(table);
+
+            return Convert.ToInt32(table.Rows[0][0].ToString());
         }
 
         public bool editRoom(int number, int type, String lname, String phone, String free)
