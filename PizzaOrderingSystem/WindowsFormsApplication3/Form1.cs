@@ -271,11 +271,12 @@ namespace WindowsFormsApplication3
             {
                 ListViewItem item = new ListViewItem("Coke - Can");
                 item.SubItems.Add(textBox1.Text);
-                double qty = Convert.ToInt32(textBox1.Text);
+                int qty = Convert.ToInt32(textBox1.Text);
                 double cost = qty * 1.45;
                 string dCost = cost.ToString();
                 item.SubItems.Add(dCost);
                 listView1.Items.Add(item);
+          
             }
 
             else
@@ -287,7 +288,7 @@ namespace WindowsFormsApplication3
             {
                 ListViewItem item = new ListViewItem("Diet Coke - Can");
                 item.SubItems.Add(textBox2.Text);
-                double qty = Convert.ToInt32(textBox2.Text);
+                int qty = Convert.ToInt32(textBox2.Text);
                 double cost = qty * 1.45;
                 string dCost = cost.ToString();
                 item.SubItems.Add(dCost);
@@ -304,7 +305,7 @@ namespace WindowsFormsApplication3
             {
                 ListViewItem item = new ListViewItem("Iced Tea - Can");
                 item.SubItems.Add(textBox3.Text);
-                double qty = Convert.ToInt32(textBox3.Text);
+                int qty = Convert.ToInt32(textBox3.Text);
                 double cost = qty * 1.45;
                 string dCost = cost.ToString();
                 item.SubItems.Add(dCost);
@@ -454,7 +455,7 @@ namespace WindowsFormsApplication3
 
             foreach (ListViewItem item in listView1.Items)
             {
-                total += Convert.ToDouble(item.SubItems[2].Text);
+                
             }
 
             hst = total * 0.13;
@@ -622,7 +623,7 @@ namespace WindowsFormsApplication3
                 string money = textBox19.Text;
                 char[] dollars = { '$' };
                 string paymoney = money.TrimStart(dollars);
-                double paymentDue = Convert.ToDouble(paymoney);
+                double paymentDue = Convert.ToDouble(money);
                 double amountPaid = Convert.ToDouble(textBox20.Text);
                 double change = 0;
                 change = amountPaid - paymentDue;
@@ -724,6 +725,21 @@ namespace WindowsFormsApplication3
             {
                 textBox18.Enabled = false;
             }
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void tabPage2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 } 
