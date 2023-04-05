@@ -1,0 +1,14 @@
+D:\C#\projects\management system\FastFood_management1\bin\Debug\FastFood_management1.exe.config
+D:\C#\projects\management system\FastFood_management1\bin\Debug\FastFood_management1.exe
+D:\C#\projects\management system\FastFood_management1\bin\Debug\FastFood_management1.pdb
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.csproj.AssemblyReference.cache
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.Form1.resources
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.Properties.Resources.resources
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.csproj.GenerateResource.cache
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.csproj.CoreCompileInputs.cache
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.exe
+D:\C#\projects\management system\FastFood_management1\obj\Debug\FastFood_management1.pdb
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\C--Sharp-_fastfood_management\obj\Debug\FastFood_management1.csproj.AssemblyReference.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\C--Sharp-_fastfood_management\obj\Debug\FastFood_management1.csproj.SuggestedBindingRedirects.cache
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\C--Sharp-_fastfood_management\obj\Debug\FastFood_management1.exe
+C:\Users\janik\source\repos\Ohjelmistokehittaja2\C--Sharp-_fastfood_management\obj\Debug\FastFood_management1.pdb
