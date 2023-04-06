@@ -37,16 +37,16 @@ namespace Hotel_System
                  return table;
              }
 
-        //make new reservation
+        //add a new reservation
         public bool addReserv(string guestId, string roomNo, DateTime dateIn, DateTime dateOut)
             {
                 string insertQuerry = "INSERT INTO `reservation`(`GuestId`,`RoomNo`, `DateIN`, `DateOUT`) VALUES (@Gid, @Din, @Dout)";
                  MySqlCommand command = new MySqlCommand(insertQuerry, connect.GetConnection());
                 // @Gid, @Rno, @Din, @Dout
-                command.Parameters.Add("@number", MySqlDbType.varChar).Value = guestId;
-                command.Parameters.Add("@client", MySqlDbType.varChar).Value = roomNo;
-                command.Parameters.Add("@dateIn", MySqlDbType.Date).Value = dateIn;
-                command.Parameters.Add("@dateOut", MySqlDbType.Date).Value = dateOut;
+                command.Parameters.Add("@Gid", MySqlDbType.varChar).Value = guestId;
+                command.Parameters.Add("@Rno", MySqlDbType.varChar).Value = roomNo;
+                command.Parameters.Add("@Din", MySqlDbType.Date).Value = dateIn;
+                command.Parameters.Add("@Dout", MySqlDbType.Date).Value = dateOut;
 
                 connect.OpenCon();
                 if (command.ExecuteNonQuery() == 1)
@@ -60,57 +60,6 @@ namespace Hotel_System
                     return false;
                 }
             }
-
-            //edit reservation
-            public bool EditReservation(int id, int number, int client, DateTime dateIn, DateTime dateOut)
-            {
-                MySqlCommand command = new MySqlCommand();
-                String queryUpdate = "UPDATE `reservations` SET `roomNumber`=@number,`clientid`=@client,`dateIn`=@dateIn,`dateOut`=@dateOut WHERE id=@id";
-                command.CommandText = queryUpdate;
-                command.Connection = conn.GetConnection();
-
-                command.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
-                command.Parameters.Add("@number", MySqlDbType.Int32).Value = number;
-                command.Parameters.Add("@client", MySqlDbType.Int32).Value = client;
-                command.Parameters.Add("@dateIn", MySqlDbType.Date).Value = dateIn;
-                command.Parameters.Add("@dateOut", MySqlDbType.Date).Value = dateOut;
-
-                 connect.OpenCon();
-                if (command.ExecuteNonQuery() == 1)
-                {
-                connect.CloseCon();
-                    return true;
-                }
-                else
-                {
-                connect.CloseCon();
-                    return false;
-                }
-            }
-
-            //remove room
-            public bool RemoveReservation(int id)
-            {
-                MySqlCommand command = new MySqlCommand();
-                String queryDelete = "DELETE FROM reservations WHERE id=@id";
-                command.CommandText = queryDelete;
-                command.Connection = conn.GetConnection();
-
-                command.Parameters.Add("@id", MySqlDbType.Int32).Value = id;
-
-                 connect.OpenCon();
-                if (command.ExecuteNonQuery() == 1)
-                {
-                connect.CloseCon();
-                    return true;
-                }
-                else
-                {
-                connect.CloseCon();
-                    return false;
-                }
-            }
-
         }
     }
 }

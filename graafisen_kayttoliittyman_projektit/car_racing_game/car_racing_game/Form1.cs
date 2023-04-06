@@ -37,6 +37,14 @@ namespace Hotel_Management_System
             dataGridView_reserv.DefaultCellStyle.ForeColor = Color.Black;
             //To show reservationlist in datagridview
             dataGridView_reserv.DataSource = reservation.getReserv();
+            getReservTable();
+        }
+
+        public void getReservTable()
+        {
+            getReservTable();
+            dataGridView_reserv.DataSource = reservation.getReserv();
+
         }
 
         private void comboBox_roomType_SelectedIndexChanged(object sender, EventArgs e)
@@ -80,5 +88,10 @@ namespace Hotel_Management_System
                 MessageBox.Show(ex.Message, "Reservation Add Error!", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+        //the guest id 32 does not exist in the guest table
+        //we need a to prevent this problem , add a foreign key guest of the reservation table
+        //And room number 101 prevetn this problem, date condition
+
+        //now add the foreign key for the guest
     }
 }
